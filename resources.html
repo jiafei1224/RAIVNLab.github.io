@@ -56,15 +56,22 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div id="gridid" class="col-sm-12">
-            <h2 id="publications">Datasets</h2>
-
-            <h2 id="full-list"><a href="https://github.com/RAIVNLab" style="color:black"><img src="./images/logopic/github.png" style="width: 10%"/>@RAIVNLab</a></h2>
-            <h4>Most of the group's code repositories can be found at this central location.</h4>
+        <div class="col-sm-12">
+            <h2>Datasets</h2>
+            <div class="dataset-row" onclick="location.href='https://github.com/danielgordon10/vince#downlaod-random-related-video-views-r2v2';">
+                <img src="./images/paperpic/r2v2.jpg" class="dataset-img"/>
+                <div class="dataset-title">Random Related Video Views (R2V2)</div>
+                <div class="dataset-description">R2V2 is a dataset of nearly 3 million images from over 700,000 videos. It can be used for learning image features in an unsupervised fashion.</div>
+            </div>
+            <div class="dataset-row" onclick="location.href='https://askforalfred.com/';">
+            <img src="./images/paperpic/alfred.png" class="dataset-img"/>
+                <div class="dataset-title">Action Learning From Realistic Environments and Directives (ALFRED)</div>
+                <div class="dataset-description">
+                    ALFRED is a new benchmark for learning a mapping from natural language instructions and egocentric vision to sequences of actions for household tasks. Long composition rollouts with non-reversible state changes are among the phenomena we include to shrink the gap between research benchmarks and real-world applications.
+                </div>
+            </div>
         </div>
     </div>
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
 
