@@ -61,6 +61,10 @@
     margin: 7px 19px;
 }
 
+.carousel-indicators {
+    bottom: -10px;
+}
+
 .carousel-indicators li {
     background-color: #aaa;
     border: 0px;
@@ -74,4 +78,17 @@
     border: 0px;
     width: 10px;
     height: 10px;
+}
+
+#main-page-background {
+    background-image: url(../images/mainpic/allen_center_compressed.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    top: -17px;
+}
+
+.navbar {
+    border: 0px;
 }
