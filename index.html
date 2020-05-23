@@ -12,6 +12,11 @@
   gtag('config', 'UA-164479100-1');
 
 
+
+
+
+
+
     </script>
 
     <meta charset="utf-8">
@@ -26,7 +31,7 @@
 </head>
 
 
-<body>
+<div>
 
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
@@ -38,92 +43,102 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-    
+
                 <a class="navbar-brand" href="./index.html" style="color:black">RAIVN Lab @ UW</a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="./index.html" style="color:black"><strong>Home</strong></a></li>
-                    <li><a href="./people.html" style="color:black">People</a></li>
-                    <li><a href="./publications.html" style="color:black">Publications</a></li>
-                    <li><a href="./resources.html" style="color:black">Resources</a></li>
-                    <li><a href="./news_archive.html" style="color:black">News Archive</a></li>
-                    <li><a href="https://sites.google.com/cs.washington.edu/uwcseali" target="_blank" style="color:black">Internal</a></li>
+                    <li><a href="./index.html" class="navbar-item-text navbar-item-on">Home</a></li>
+                    <li><a href="./people.html" class="navbar-item-text">People</a></li>
+                    <li><a href="./publications.html" class="navbar-item-text">Publications</a></li>
+                    <li><a href="./resources.html" class="navbar-item-text">Resources</a></li>
+                    <li><a href="./news_archive.html" class="navbar-item-text">News Archive</a></li>
+                    <li><a href="https://sites.google.com/cs.washington.edu/uwcseali" target="_blank" class="navbar-item-text">Internal</a></li>
                 </ul>
             </div>
         </div>
     </div>
 
 
-<div id="main-page-background"></div>
-<div class="container-fluid">
-    <div class="row">
-        <div id="homeid" class="col-sm-12">
-            <h1>Welcome to the <font style="color:rgb(117, 25, 117)">RAIVN Lab</font></h1>
+    <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
+        <!-- Menu -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="3"></li>
+        </ol>
 
-            <p style="font: 'Work Sans'"> The Reasoning, AI and VisioN (RAIVN) Lab at Paul G. Allen School of Computer
-                Science and Engineering, University of Washington is directed by Prof. Ali Farhadi. Our research is at
-                the intersection of Computer Vision, Machine Learning, Natural Language Processing and Robotics and is
-                targetted towards helping computers improve their perception and reasoning.</p>
-        </div>
-        <div id="logo" class="col-sm-4">
-            <img src="./images/mainpic/logo.png" style="width: 250px; height:350px; margin: 35px 30px">
-        </div>
-        <div id="imagecarousel" class="col-sm-8">
-            <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
-                <!-- Menu -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel" data-slide-to="1"></li>
-                    <li data-target="#carousel" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Items -->
-                <div class="carousel-inner">
-
-                    <div class="item active">
-                        <img src="./images/mainpic/carousel/groupPicCVPR2019.jpg" style="height: 350px; width: 550px;" alt="Slide 1"/>
-                    </div>
-                    <div class="item">
-                        <a href="https://www.nbcnews.com/mach/science/why-scientists-are-teaching-ai-think-dog-ncna869266" target="_blank"><img src="./images/mainpic/carousel/dogTorch.jpg" style="height: 350px; width: 550px;" alt="Slide 2"/></a>
-                    </div>
-                    <div class="item">
-                        <a href="https://visualcommonsense.com/" target="_blank"><img src="./images/mainpic/carousel/vcr.png" style="height: 350px; width: 550px;" alt="Slide 2"/></a>
-                    </div>
-                </div>
-                <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+        <!-- Items -->
+        <div class="carousel-inner">
+            <div class="item active center-cropped">
+                <img class="center-cropped-img" src="./images/mainpic/carousel/groupPicCVPR2019.jpg" alt="Slide 1"/>
+            </div>
+            <div class="item center-cropped">
+                <img class="center-cropped-img" src="./images/mainpic/carousel/allen_center_compressed.jpg" alt="Slide 2"/>
+            </div>
+            <div class="item center-cropped">
+                <img class="center-cropped-img" src="./images/mainpic/carousel/dogTorch.jpg" alt="Slide 3"/>
+            </div>
+            <div class="item center-cropped">
+                <img class="center-cropped-img" src="./images/mainpic/carousel/vcr.png" alt="Slide 4"/>
             </div>
         </div>
-        <div id="ssds" class="col-sm-12">
-            <p>RAIVN Lab's famous research break-throughs include YOLO, XNor-Net, VCR, BiDAF among many other amazing
-                projects.</p>
+        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="homeid" class="col-sm-12">
 
+                <h1 id="main-page-title">Welcome to the <font style="color:rgb(117, 25, 117)">RAIVN Lab</font></h1>
+
+                <p style="font: 'Work Sans'"> The Reasoning, AI and VisioN (RAIVN) Lab at Paul G. Allen School of Computer
+                    Science and Engineering, University of Washington is directed by Prof. Ali Farhadi. Our research is at
+                    the intersection of Computer Vision, Machine Learning, Natural Language Processing and Robotics and is
+                    targetted towards helping computers improve their perception and reasoning. RAIVN Lab's famous research break-throughs include
+                    YOLO, XNor-Net, VCR, BiDAF among many other amazing projects.</p>
+            </div>
+            <!--
+            <div id="logo" class="col-sm-4">
+                <img src="./images/mainpic/logo.png" style="width: 250px; height:350px; margin: 35px 30px">
+            </div>
+            -->
+
+            <!--
+            <div id="ssds" class="col-sm-12">
+                <p></p>
+            </div>
+            -->
         </div>
-
-
-        <div id="newsid" class="col-sm-12">
-            <h2>Recent News</h2>
-            <ul id="RecentNews">
-                <li class="news-item"><b>February 2020: </b>
-                    <a href="publications.html">6 papers accepted to CVPR.</a>
-                </li>
-                <li class="news-item"><b>January 2020: </b>
-                    <a href="https://www.forbes.com/sites/janakirammsv/2020/01/19/apple-acquires-xnorai-to-bolster-ai-at-the-edge/#e5a9f3b3975a">
-                    Apple buys XNOR.ai for $200,000,000.</a>
-                </li>
-                <li class="news-item"><b>January 2020: </b>
-                    <a href="https://techcrunch.com/2019/06/10/to-detect-fake-news-this-ai-first-learned-to-write-it/">
-                    Rowan's fake news (Grover) makes the real news.</a>
-                </li>
-                <a href="./news_archive.html">Older News</a>
-            </ul>
+        <div class="row">
+            <div id="newsid" class="col-sm-6">
+                <h2>Recent News</h2>
+                <ul id="RecentNews">
+                    <li class="news-item"><b>February 2020: </b>
+                        <a href="publications.html">6 papers accepted to CVPR.</a>
+                    </li>
+                    <li class="news-item"><b>January 2020: </b>
+                        <a href="https://www.forbes.com/sites/janakirammsv/2020/01/19/apple-acquires-xnorai-to-bolster-ai-at-the-edge/#e5a9f3b3975a">
+                            Apple buys XNOR.ai for $200,000,000.</a>
+                    </li>
+                    <li class="news-item"><b>January 2020: </b>
+                        <a href="https://techcrunch.com/2019/06/10/to-detect-fake-news-this-ai-first-learned-to-write-it/">
+                            Rowan's fake news (Grover) makes the real news.</a>
+                    </li>
+                    <a href="./news_archive.html">Older News</a>
+                </ul>
+            </div>
+            <div id="tweets" class="col-sm-6">
+                <a class="twitter-timeline" data-width="500" data-height="500" data-theme="light" href="https://twitter.com/RAIVNLab?ref_src=twsrc%5Etfw">Tweets by RAIVNLab</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
         </div>
 
         <div id="sponsors" class="col-sm-12" style="margin: auto">
@@ -151,7 +166,7 @@
             <div class="row profile-row" style="margin: auto">
 
                 <div class="col-sm-3 clearfix">
-                    <p><a href="https://research.fb.com/"><img src="./images/logopic/facebook.png" width="80%" style="vertical-align:top; margin: 10px 0px" /></a></p>
+                    <p><a href="https://research.fb.com/"><img src="./images/logopic/facebook.png" width="80%" style="vertical-align:top; margin: 10px 0px"/></a></p>
                 </div>
 
                 <div class="col-sm-3 clearfix">
