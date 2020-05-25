@@ -1,3 +1,7 @@
+body {
+    padding-top: 50px;
+}
+
 .profile-img {
     float: left;
     width: 120px;
@@ -155,9 +159,18 @@
     padding-left: calc(100vw - 100%) !important;
 }
 
-body {
-    padding-top: 50px;
+.main-page-section {
+    padding-top: 30px;
 }
+
+.main-page-header {
+    /* To match "Tweets" header */
+    font-size: 27px;
+    line-height: 36px;
+    padding: 10px;
+    margin: 0;
+}
+
 
 
 /**     border-bottom: 3px solid gray;
