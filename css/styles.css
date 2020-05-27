@@ -194,7 +194,13 @@ body {
     margin-bottom: 80px;
 }
 
+.profile-row .col-sm-6 {
+  padding: 10px 0px;
+}
 
+.profile-row h3 {
+   padding-top: 14px;
+}
 
 
 
