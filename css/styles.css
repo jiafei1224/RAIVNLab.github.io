@@ -97,9 +97,12 @@ body {
   height: 50vh;
 }
 
+#pub-page-carousel-inner {
+  border-radius: 15px;
+}
+
 #pub-page-carousel-inner .center-cropped-img {
   height: 75vh;
-  border-radius: 15px;
 }
 
 .carousel-img-title {
