@@ -74,25 +74,46 @@ body {
 
 .carousel{
     margin: 0;
-    height: 50vh;
 }
 
 .center-cropped {
-  height: 50vh;
   background-position: center center;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 
+
 .center-cropped-img{
   width: 100%;
-  height: 50vh;
   margin: 0;
   border: 0;
   padding: 0;
   border-radius: 0;
   background-position: center;
   background-size: cover;
+}
+
+#main-page-carousel-inner .center-cropped-img {
+  height: 50vh;
+}
+
+#pub-page-carousel-inner .center-cropped-img {
+  height: 75vh;
+  border-radius: 15px;
+}
+
+.carousel-img-title {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 15px;
+    width: 75%;
 }
 
 .carousel-indicators {
@@ -107,6 +128,7 @@ body {
     height: 5px;
     margin: 0px 3px;
 }
+
 .carousel-indicators .active{
     background-color: #444;
     border: 0px;
@@ -115,29 +137,8 @@ body {
     margin: 0px 3px;
 }
 
-.carousel-img-title {
-    color: #555;
-    font-size: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 10px;
-    border-radius: 15px;
-}
-
 #main-page-title {
     margin: 1em;
-}
-
-#main-page-background {
-    background-image: url(../images/mainpic/allen_center_compressed.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 50vh;
-    position: relative;
 }
 
 .navbar {
