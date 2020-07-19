@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>NED: Leaderboard</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+    
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="home.html" class="w3-bar-item w3-button">IN THE WILD</a>
+    <a href="https://arxiv.org/abs/2007.02519" class="w3-bar-item w3-button" target="_blank">paper</a>
+    <a href="Dataset.html" class="w3-bar-item w3-button">dataset</a>
+    <a href="https://github.com/MattWallingford/InTheWild" class="w3-bar-item w3-button" target="_blank">code</a>
+    <a href="FAQ.html" class="w3-bar-item w3-button">FAQ</a>
+    <a href="leaderboard.html" class="w3-bar-item w3-button">leaderboard</a>
+<!--
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>-->
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div class="w3-top">
+  <div class="w3-bar w3-light-gray w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="home.html" class="w3-bar-item w3-button">IN THE WILD</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="https://arxiv.org/abs/2007.02519" class="w3-bar-item w3-button" target="_blank">Paper</a>
+      <a href="Dataset.html" class="w3-bar-item w3-button">Dataset</a>
+      <a href="https://github.com/MattWallingford/InTheWild" class="w3-bar-item w3-button" target="_blank">Code</a>
+      <a href="leaderboard.html" class="w3-bar-item w3-button">Leaderboard</a>
+    </div>
+  </div>
+</div>
+    <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding w3-padding-64 w3-light-gray">
+  
+    <!-- Left Column -->
+    <div class="w3-third ">
+    
+      <div class="w3-white w3-card-4">
+        
+        <div class="w3-container">
+            
+          <h2>IN THE WILD (NED)</h2>
+          <p>For more Information on the learning and evaluation framework see the paper <a href= https://arxiv.org/abs/2007.02519>In the Wild: From ML Models to Pragmatic ML Systems.</a></p>
+          
+          <hr> 
+            <h2>SUBMISSION INFO</h2>
+          <p>Submission is easy! You just need to email Matt (mcw244 at cs.washington.edu) with your predictions for the data in Sequence 5. Formatting instructions are below: <br><br>
+
+              Please include in your email 1) a name for your model, 2) your team name (including your affiliation), and optionally, 3) a github repo or paper link.<br><br>
+
+              I'll try to get back to you within a few days, usually sooner. Teams can only submit results from a model once every 7 days.
+         <hr>
+            <h2>FAQ</h2>   
+            
+    <p>Coming Soon</p>
+          
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class=" w3-padding-25">NED LEADERBOARD</h2>
+        <li>MPC Acc: Mean Per-Class Accuracy</li>
+        <li>OOD Acc: Out of Distribution Accuracy (the accuracy on samples from previously unseen classes)</li>
+        <div class="w3-container">
+        </div>
+        
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <table style="width:100%">
+  <tr>
+    <td><b>Rank</b></td>
+    <td><b>Model</b></td>
+    <td><b>Accuracy</b></td>
+    <td>MPC Accuracy</td>
+    <td>OOD Acc (AUROC)</td>
+    <td>Compute (GMACs)</b></td>
+
+  </tr> 
+  <tr>
+    <td>1</td>
+    <td><a href = "https://arxiv.org/abs/2007.02519">Prototype Tuning</a> (ResNet 50)</td>
+    <td>58.80</td>
+    <td>48.74</td>
+    <td>-</td>
+    <td>13.03</td>
+  </tr> 
+  <tr>
+    <td>2</td>
+    <td>Fine Tune (ResNet 50)</td>
+    <td>57.95</td>
+    <td>46.24</td>
+    <td>-</td>
+    <td>13.03</td>
+  </tr> 
+
+  <tr>
+    <td>4</td>
+    <td>Prototype Tuning (ResNet 18)</td>
+    <td>57.02</td>
+    <td>42.86</td>
+    <td>-</td>
+    <td>5.73</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>NCM (ResNet 50)</td>
+    <td>52.19</td>
+    <td>47.75</td>
+    <td>.85</td>
+    <td>0.35</td>
+  </tr> 
+  <tr>
+    <td>5</td>
+    <td>Fine Tune (ResNet 18)</td>
+    <td>53.80</td>
+    <td>41.54</td>
+    <td>-</td>
+    <td>5.73</td>
+  </tr> 
+  <tr>
+    <td>6</td>
+    <td>NCM (ResNet 18)</td>
+    <td>48.62</td>
+    <td>43.44</td>
+    <td>.83</td>
+    <td>.15</td>
+  </tr> 
+  <tr>
+    <td>7</td>
+    <td><a href="https://arxiv.org/abs/2003.04390">New Meta Baseline</a> Resnet (18)</td>
+    <td>47.62</td>
+    <td>40.23</td>
+    <td>-</td>
+    <td>6.39</td>
+  </tr> 
+  <tr>
+    <td>9</td>
+    <td><a href="https://arxiv.org/abs/1712.07136">Weight Imprinting</a> Resnet(18)</td>
+    <td>46.67</td>
+    <td>32.56</td>
+    <td>-</td>
+    <td>5.73</td>
+  </tr> 
+
+  <tr>
+    <td>8</td>
+    <td><a href="https://arxiv.org/abs/1904.05160">Open Long Tail Recognition</a> (ResNet 18)</td>
+    <td>45.06</td>
+    <td>27.77</td>
+    <td>.78</td>
+    <td>6.39</td>
+  </tr> 
+  <tr>
+    <td>9</td>
+    <td><a href="https://arxiv.org/abs/1703.05175">Prototypical Networks</a> (Resnet 18)</td>
+    <td>11.14</td>
+    <td>9.50</td>
+    <td>-</td>
+    <td>.15</td>
+  </tr> 
+  <tr>
+    <td>10</td>
+    <td><a href= "https://arxiv.org/abs/1703.03400">MAML</a> (Conv-4)</td>
+    <td>3.64</td>
+    <td>1.10</td>
+    <td>-</td>
+    <td>.06</td>
+  </tr> 
+
+</table>
+      </div>
+    <!-- End Right Column -->
+    </div>
+  <!-- End Grid -->
+  </div>
+  <!-- End Page Container -->
+</div>
+
+    
+    
+</body>
+</html>

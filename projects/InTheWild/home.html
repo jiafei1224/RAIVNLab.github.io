@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>NED: Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#home" class="w3-bar-item w3-button">IN THE WILD</a>
+    <a href="https://arxiv.org/abs/2007.02519" class="w3-bar-item w3-button" target="_blank">Paper</a>
+    <a href="Dataset.html" class="w3-bar-item w3-button">Dataset</a>
+    <a href="https://github.com/MattWallingford/InTheWild" class="w3-bar-item w3-button" target="_blank">Code</a>
+    <a href="FAQ.html" class="w3-bar-item w3-button" target="_blank">FAQ</a>
+    <a href="leaderboard.html" class="w3-bar-item w3-button">Leaderboard</a>
+<!--
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>-->
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div class="w3-top">
+  <div class="w3-bar w3-light-gray w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">IN THE WILD</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="https://arxiv.org/abs/2007.02519" class="w3-bar-item w3-button" target="_blank">Paper</a>
+      <a href="Dataset.html" class="w3-bar-item w3-button">Dataset</a>
+      <a href="https://github.com/MattWallingford/InTheWild" class="w3-bar-item w3-button" target="_blank">Code</a>
+      <!-- <a href="FAQ.html" class="w3-bar-item w3-button" target="_blank">FAQ</a> -->
+      <a href="leaderboard.html" class="w3-bar-item w3-button">Leaderboard</a>
+    </div>
+  </div>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px">
+
+  <!-- Automatic Slideshow Images -    
+
+
+  <!-- Home/About -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; " id="home">
+      
+    <h1 class="w3-wide" style="color:gray">I<b style="color:black">N</b> TH<b style="color:black">E</b> WIL<b style="color:black">D (NED)</b>:</h1>
+    <p class="w3-opacity"><i>A new learning and evaluation framework to further research towards versatile and robust ML systems</i></p>
+      <div class="w3-display-container w3-center">
+        <img src="teaser_fig_NED.jpg" style="width:100%">
+    </div>
+    <p class="w3-justify">Enabling robust intelligence in the wild entails learning systems that offer uninterrupted inference while continually and rapidly adapting to new data. Such ML systems must be flexible and general enough to handle the uncertain and imperfect conditions inherent to the real world. The machine learning community has organically broken down this challenging task into manageable subtasks such as supervised, few-shot, continual, and self-supervised learning; each affording distinctive challenges and leading to unique set of dedicated methods. Notwithstanding this amazing progress, the restrictive and isolated nature of these settings has resulted in methods that excel in one setting and struggle to extend beyond them. </p>  
+    <p class="w3-justify">To foster research towards general ML systems capable of learning in a diverse set of learning scenarios, we introduce a unified learning and evaluation framework - In the Wild (NED). NED loosens the restrictive design decisions of past frameworks (e.g. closed-world assumption) and imposes fewer restrictions on learning algorithms (e.g. predefined train and test phases). The learners can infer the experimental parameters themselves by optimizing for the best tradeoff between accuracy and compute. In NED, a learner faces a stream of data and must make sequential predictions while choosing how to update itself, adapt to data from novel categories, and deal with changing data distributions; while optimizing the total amount of compute.
+      We present multiple surprising results about current prominent methods that are revealed through the NED framework. For example, prominent few shot methods are drastically outperformed (30-40% accuracy) by simple baselines and the self-supervised method, <a href= "https://arxiv.org/abs/1911.05722" >MoCo</a>, struggles to generalize to novel classes which motivates the need for a more general framework that carefully conglomerates the objectives of past frameworks.
+    </p>
+
+   </div>
+  <div class="w3-light-gray w3-wide" id="paper">
+    <div class="w3-container w3-center w3-content w3-padding-64" style="max-width:1000px">
+      <h2>In the Wild: From ML Models to Pragmatic ML Systems</h2>
+    <div class="img-container center">
+      <a href="https://arxiv.org/abs/2007.02519", style="text-align: center" target="_blank"><img src="images/paperpreview.jpg", align = "center", width = 900>
+      <div class="img-overlay">
+        <a href="https://arxiv.org/abs/2007.02519" class="w3-bar-item w3-button" target="_blank">Read our paper here</a>
+      </div>
+        </a>
+    </div>
+  </pre>
+
+
+      <div class="w3-row w3-padding-32">
+        <h1>Authors</h1>
+      <div class="w3-third">
+        <p><a href="https://mattwallingford.github.io/">Matthew Wallingford</a></p>
+        <a href="https://mattwallingford.github.io/"><img src="images/profile.jpg" class="w3-round w3-margin-bottom" alt="Matthew Wallingford" style="width:50%"></a>
+      </div>
+      <div class="w3-third">
+        <p><a href="https://homes.cs.washington.edu/~kusupati/">Aditya Kusupati</a></p>
+        <a href="https://homes.cs.washington.edu/~kusupati/"><img src="images/AdityaKusupati.jpg" class="w3-round w3-margin-bottom" alt="Aditya Kusupati" style="width:50%"></a>
+      </div>
+      <div class="w3-third">
+        <p><a href="https://homes.cs.washington.edu/~keivan/">Keivan Alizadeh-Vahid</a></p>
+        <a href="https://homes.cs.washington.edu/~keivan/"><img src="images/KeivanAlizadeh-Vahid.jpg" class="w3-round" alt="Keivan Alizadeh-Vahid" style="width:50%"></a>
+      </div>
+    </div> 
+    <div class="w3-third">
+      <p>Aaron Walsman</p>
+      <img src="images/Aaron-Walsman.png" class="w3-round w3-margin-bottom" alt="Aaron Walsman" style="width:50%">
+    </div>
+    <div class="w3-third">
+      <p><a href="https://anikem.github.io/">Aniruddha Kembhavi</a></p>
+      <img src="images/ani.jpg" class="w3-round w3-margin-bottom" alt="Aniruddha Kembhavi" style="width:50%">
+    </div>
+    <div class="w3-third">
+      <p><a href="https://homes.cs.washington.edu/~ali/">Ali Farhadi</a></p>
+      <a href="https://homes.cs.washington.edu/~ali/"><img src="images/ali2.jpg" class="w3-round" alt="Ali Frahadi" style="width:50%"></a>
+    </div>
+      </div>
+   
+    
+      
+         
+
+     
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <!-- <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p> -->
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-github" style="width:30px"></i> <a href="https://github.com/MattWallingford/InTheWild" target="_blank">GitHub</a><br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mcw244 at cs.washington.edu<br>
+      </div>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
