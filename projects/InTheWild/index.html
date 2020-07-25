@@ -12,44 +12,33 @@ body {font-family: "Lato", sans-serif}
 </style>
 <body>
 
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
+ <!-- Navbar -->
+ <div class="w3-top">
+  <div class="w3-bar w3-light-gray w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#home" class="w3-bar-item w3-button">IN THE WILD</a>
-    <a href="https://arxiv.org/abs/2007.02519" class="w3-bar-item w3-button" target="_blank">Paper</a>
-    <a href="dataset.html" class="w3-bar-item w3-button">Dataset</a>
-    <a href="https://github.com/RAIVNLab/InTheWild" class="w3-bar-item w3-button" target="_blank">Code</a>
-    <a href="FAQ.html" class="w3-bar-item w3-button" target="_blank">FAQ</a>
-    <a href="leaderboard.html" class="w3-bar-item w3-button">Leaderboard</a>
-<!--
-    <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
-        <a href="#" class="w3-bar-item w3-button">Extras</a>
-        <a href="#" class="w3-bar-item w3-button">Media</a>
-      </div>
-    </div>-->
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
-
+    <a href="#home" class="w3-bar-item w3-button w3-padding-large">IN THE WILD</a>
+    
+    
+    <div class=" w3-hide-small">
+    <a href="https://arxiv.org/abs/2007.02519" class="w3-bar-item w3-button  w3-padding-large" target="_blank">Paper</a>
+    <a href="Dataset.html" class="w3-bar-item w3-button  w3-padding-large">Dataset</a>
+    <a href="https://github.com/MattWallingford/InTheWild" class="w3-bar-item  w3-button w3-padding-large" target="_blank">Code</a>
+    <!-- <a href="FAQ.html" class="w3-bar-item  w3-button w3-padding-large" target="_blank">FAQ</a> -->
+    <a href="leaderboard.html" class="w3-bar-item  w3-button w3-padding-large">Leaderboard</a>
+      
+    </div>
+    
   </div>
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div class="w3-top">
-  <div class="w3-bar w3-light-gray w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button">IN THE WILD</a>
-    <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="https://arxiv.org/abs/2007.02519" class="w3-bar-item w3-button" target="_blank">Paper</a>
-      <a href="dataset.html" class="w3-bar-item w3-button">Dataset</a>
-      <a href="https://github.com/RAIVNLab/InTheWild" class="w3-bar-item w3-button" target="_blank">Code</a>
-      <!-- <a href="FAQ.html" class="w3-bar-item w3-button" target="_blank">FAQ</a> -->
-      <a href="leaderboard.html" class="w3-bar-item w3-button">Leaderboard</a>
-    </div>
-  </div>
-</div>
+<div id="navDemo" class="w3-bar-block w3-light-gray w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="https://arxiv.org/abs/2007.02519" class=" w3-bar-item w3-button w3-padding-large"  target="_blank">Paper</a>
+    <a href="Dataset.html" class="w3-bar-item w3-button w3-padding-large">Dataset</a>
+    <!-- <a href="FAQ.html" class="w3-bar-item  w3-button w3-padding-large" target="_blank">FAQ</a> -->
+    <a href="https://github.com/MattWallingford/InTheWild" class="w3-bar-item w3-button w3-padding-large" target="_blank">Code</a>
+      <a href="leaderboard.html" class="w3-bar-item w3-button w3-padding-large">Leaderboard</a>
+</div>   <!-- end Nav Bar --> 
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px">
@@ -75,7 +64,7 @@ body {font-family: "Lato", sans-serif}
     <div class="w3-container w3-center w3-content w3-padding-64" style="max-width:1000px">
       <h2>In the Wild: From ML Models to Pragmatic ML Systems</h2>
     <div class="img-container center">
-      <a href="https://arxiv.org/abs/2007.02519", style="text-align: center" target="_blank"><img src="images/paperpreview.jpg", align = "center", width = 900>
+      <a href="https://arxiv.org/abs/2007.02519", style="text-align: center" target="_blank"><img src="images/teaser1.png", align = "center", width = 300><a href="https://arxiv.org/abs/2007.02519", style="text-align: center" target="_blank"><img src="images/teaser2.png", align = "center", width = 300><a href="https://arxiv.org/abs/2007.02519", style="text-align: center" target="_blank"><img src="images/teaser2.png", align = "center", width = 300>
       <div class="img-overlay">
         <a href="https://arxiv.org/abs/2007.02519" class="w3-bar-item w3-button" target="_blank">Read our paper here</a>
       </div>
@@ -101,11 +90,11 @@ body {font-family: "Lato", sans-serif}
     </div> 
     <div class="w3-third">
       <p>Aaron Walsman</p>
-      <img src="images/aaron-walsman.png" class="w3-round w3-margin-bottom" alt="Aaron Walsman" style="width:50%">
+      <img src="images/Aaron-Walsman.png" class="w3-round w3-margin-bottom" alt="Aaron Walsman" style="width:50%">
     </div>
     <div class="w3-third">
       <p><a href="https://anikem.github.io/">Aniruddha Kembhavi</a></p>
-      <a href="https://anikem.github.io/">Aniruddha Kembhavi</a><img src="images/ani.jpg" class="w3-round w3-margin-bottom" alt="Aniruddha Kembhavi" style="width:50%">
+      <a href="https://anikem.github.io/"</a><img src="images/ani.jpg" class="w3-round w3-margin-bottom" alt="Aniruddha Kembhavi" style="width:50%">
     </div>
     <div class="w3-third">
       <p><a href="https://homes.cs.washington.edu/~ali/">Ali Farhadi</a></p>
@@ -147,7 +136,7 @@ body {font-family: "Lato", sans-serif}
     <!-- <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p> -->
     <div class="w3-row w3-padding-32">
       <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-github" style="width:30px"></i> <a href="https://github.com/RAIVNLab/InTheWild" target="_blank">GitHub</a><br>
+        <i class="fa fa-github" style="width:30px"></i> <a href="https://github.com/MattWallingford/InTheWild" target="_blank">GitHub</a><br>
         <i class="fa fa-envelope" style="width:30px"> </i> Email: mcw244 at cs.washington.edu<br>
       </div>
       </div>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>NED: Home</title>
+<title>NED: Dataset</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -12,44 +12,33 @@ body {font-family: "Lato", sans-serif}
 </style>
 <body>
 
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
+ <!-- Navbar -->
+ <div class="w3-top">
+  <div class="w3-bar w3-light-gray w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button">IN THE WILD</a>
-    <a href="https://arxiv.org/abs/2007.02519" class="w3-bar-item w3-button" target="_blank">Paper</a>
-    <a href="dataset.html" class="w3-bar-item w3-button">Dataset</a>
-    <a href="https://github.com/RAIVNLab/InTheWild" class="w3-bar-item w3-button" target="_blank">Code</a>
-    <!-- <a href="FAQ.html" class="w3-bar-item w3-button" target="_blank">FAQ</a> -->
-    <a href="leaderboard.html" class="w3-bar-item w3-button">Leaderboard</a>
-<!--
-    <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
-        <a href="#" class="w3-bar-item w3-button">Extras</a>
-        <a href="#" class="w3-bar-item w3-button">Media</a>
-      </div>
-    </div>-->
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
-
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">IN THE WILD</a>
+    
+    
+    <div class=" w3-hide-small">
+    <a href="https://arxiv.org/abs/2007.02519" class="w3-bar-item w3-button  w3-padding-large" target="_blank">Paper</a>
+    <a href="Dataset.html" class="w3-bar-item w3-button  w3-padding-large">Dataset</a>
+    <a href="https://github.com/MattWallingford/InTheWild" class="w3-bar-item  w3-button w3-padding-large" target="_blank">Code</a>
+    <!-- <a href="FAQ.html" class="w3-bar-item  w3-button w3-padding-large" target="_blank">FAQ</a> -->
+    <a href="leaderboard.html" class="w3-bar-item  w3-button w3-padding-large">Leaderboard</a>
+      
+    </div>
+    
   </div>
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div class="w3-top">
-  <div class="w3-bar w3-light-gray w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="index.html" class="w3-bar-item w3-button">IN THE WILD</a>
-    <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="https://arxiv.org/abs/2007.02519" class="w3-bar-item w3-button" target="_blank">Paper</a>
-      <a href="dataset.html" class="w3-bar-item w3-button">Dataset</a>
-      <a href="https://github.com/RAIVNLab/InTheWild" class="w3-bar-item w3-button" target="_blank">Code</a>
-      <!-- <a href="FAQ.html" class="w3-bar-item w3-button" target="_blank">FAQ</a> -->
-      <a href="leaderboard.html" class="w3-bar-item w3-button">Leaderboard</a>
-    </div>
-  </div>
-</div>
+<div id="navDemo" class="w3-bar-block w3-light-gray w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="https://arxiv.org/abs/2007.02519" class=" w3-bar-item w3-button w3-padding-large"  target="_blank">Paper</a>
+    <a href="Dataset.html" class="w3-bar-item w3-button w3-padding-large">Dataset</a>
+    <!-- <a href="FAQ.html" class="w3-bar-item  w3-button w3-padding-large" target="_blank">FAQ</a> -->
+    <a href="https://github.com/MattWallingford/InTheWild" class="w3-bar-item w3-button w3-padding-large" target="_blank">Code</a>
+      <a href="leaderboard.html" class="w3-bar-item w3-button w3-padding-large">Leaderboard</a>
+</div>   <!-- end Nav Bar --> 
     
     
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; " id="home">
@@ -68,8 +57,8 @@ body {font-family: "Lato", sans-serif}
       novel, and head vs tail classes. Below we have included a visualization of the distribution and basic statistics. For further details on the dataset see appendix A of the <a href="https://arxiv.org/abs/2007.02519">paper</a>
       <br></br>
       Click <a href="https://drive.google.com/file/d/1mmweahtEDSST6XUHUKhPww-GzlbjXDG6/view">here</a> to download the sequence images (~50 GB to download). 
-      The image order for the Nth sequence is given by sequenceN.npy. If you wish to perform your own pretraining then you will need to obtain standard ImageNet-1k. Alternatively you can load ImageNet pretrained models
-      from PyTorch or other deep learning libraries. 
+      The image order for the Nth sequence is given by sequenceN.npy. To obtain ImageNet-1k visit the 
+        <a href= "http://image-net.org/download-images">ImageNet website</a>. 
       <div class="w3-display-container w3-center">
         <!-- <img src="images/stats.png" style="width:90%"> -->
         <!-- <img src="images/dist.png" style="width:90%"> -->
@@ -78,6 +67,13 @@ body {font-family: "Lato", sans-serif}
       </div>
 </p>  
   <br></br>
-    
+  <script>function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }</script>
 </body>
 </html>
