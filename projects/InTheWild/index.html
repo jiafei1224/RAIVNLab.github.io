@@ -25,7 +25,7 @@ body {font-family: "Lato", sans-serif}
  <div class="w3-top">
   <div class="w3-bar w3-light-gray w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#home" class="w3-bar-item w3-button w3-padding-large">IN THE WILD</a>
+    <a href="#home" class="w3-bar-item w3-button w3-padding-large">FLUID</a>
     
     
     <div class=" w3-hide-small">
@@ -57,22 +57,20 @@ body {font-family: "Lato", sans-serif}
   <!-- Home/About -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; " id="home">
       
-    <h1 class="w3-wide" style="color:gray">I<b style="color:black">N</b> TH<b style="color:black">E</b> WIL<b style="color:black">D (NED)</b>:</h1>
+    <h1 class="w3-wide" style="color:black">FLUID</b>:</h1>
     <p class="w3-opacity"><i>A new learning and evaluation framework to further research towards versatile and robust ML systems</i></p>
       <div class="w3-display-container w3-center">
         <img src="images/teaser_fig_NED.jpg" style="width:100%">
     </div>
-    <p class="w3-justify">Enabling robust intelligence in the wild entails learning systems that offer uninterrupted inference while continually and rapidly adapting to new data. Such ML systems must be flexible and general enough to handle the uncertain and imperfect conditions inherent to the real world. The machine learning community has organically broken down this challenging task into manageable subtasks such as supervised, few-shot, continual, and self-supervised learning; each affording distinctive challenges and leading to unique set of dedicated methods. Notwithstanding this amazing progress, the restrictive and isolated nature of these settings has resulted in methods that excel in one setting and struggle to extend beyond them. </p>  
-    <p class="w3-justify">To foster research towards general ML systems capable of learning in a diverse set of learning scenarios, we introduce a unified learning and evaluation framework - In the Wild (NED). NED loosens the restrictive design decisions of past frameworks (e.g. closed-world assumption) and imposes fewer restrictions on learning algorithms (e.g. predefined train and test phases). The learners can infer the experimental parameters themselves by optimizing for the best tradeoff between accuracy and compute. In NED, a learner faces a stream of data and must make sequential predictions while choosing how to update itself, adapt to data from novel categories, and deal with changing data distributions; while optimizing the total amount of compute.
-      We present multiple surprising results about current prominent methods that are revealed through the NED framework. For example, prominent few shot methods are drastically outperformed (30-40% accuracy) by simple baselines and the self-supervised method, <a href= "https://arxiv.org/abs/1911.05722" >MoCo</a>, struggles to generalize to novel classes which motivates the need for a more general framework that carefully conglomerates the objectives of past frameworks.
+    <p class="w3-justify">Enabling robust intelligence in the real-world entails systems that offer continuous inference while learning from varying amounts of data and supervision. The machine learning community has organically broken down this challenging goal into manageable sub-tasks such as supervised, few-shot, and continual learning. In light of substantial progress on each sub-task, we pose the question, "How well does this progress translate to more practical scenarios?" To investigate this question, we construct a new framework, FLUID, which removes certain assumptions made by current experimental setups while integrating these sub-tasks via the following design choices -- consuming sequential data, allowing for flexible training phases, being compute aware, and working in an open-world setting. Evaluating a broad set of methods on FLUID leads to new insights including strong evidence that methods are overfitting to their experimental setup. For example, we find that representative few-shot methods are substantially worse than simple baselines, self-supervised representations from MoCo fail to learn new classes when the downstream task contains a mix of new and old classes, and pretraining largely mitigates the problem of catastrophic forgetting. Finally, we propose two new simple methods which outperform all other evaluated methods which further questions our progress towards robust, real-world systems.
     </p>
 
    </div>
   <div class="w3-light-gray w3-wide" id="paper">
     <div class="w3-container w3-center w3-content w3-padding-64" style="max-width:1000px">
-      <h2>In the Wild: From ML Models to Pragmatic ML Systems</h2>
+      <h2>Are We Overfitting to Experimental Setups in Recognition?</h2>
     <div class="img-container center">
-      <a href="https://arxiv.org/abs/2007.02519", style="text-align: center" target="_blank"><img src="images/teaser1.png", align = "center", width = 300><a href="https://arxiv.org/abs/2007.02519", style="text-align: center" target="_blank"><img src="images/teaser2.png", align = "center", width = 300><a href="https://arxiv.org/abs/2007.02519", style="text-align: center" target="_blank"><img src="images/teaser3.png", align = "center", width = 325>
+      <a href="https://arxiv.org/abs/2007.02519", style="text-align: center" target="_blank"><img src="images/teaser4.png", align = "center", width = 300><a href="https://arxiv.org/abs/2007.02519", style="text-align: center" target="_blank"><img src="images/teaser2.png", align = "center", width = 300><a href="https://arxiv.org/abs/2007.02519", style="text-align: center" target="_blank"><img src="images/teaser3.png", align = "center", width = 325>
       <div class="img-overlay">
         <a href="https://arxiv.org/abs/2007.02519" class="w3-bar-item w3-button" target="_blank">Read our paper here</a>
       </div>
