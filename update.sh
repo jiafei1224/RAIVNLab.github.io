@@ -1,4 +1,4 @@
 #!/bin/bash
 
 git pull
-rsync -avzh ./ /cse/web/research/raivn/ 
+rsync -avzh --exclude='.git/' ./ /cse/web/research/raivn/
