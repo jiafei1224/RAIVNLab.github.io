@@ -1,0 +1,27 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Deploy to server
+      uses: appleboy/ssh-action@master
+      with:
+        host: bicycle.cs.washington.edu
+        username: ${{ secrets.SERVER_USERNAME }}
+        password: ${{ secrets.SERVER_PASSWORD }}
+        script: |
+          cd /cse/web/research/raivn/
+          rm -rf ./*
+          git clone https://github.com/RAIVNLab/RAIVNLab.github.io.git
+          mv RAIVNLab.github.io/* .
+          rm -rf RAIVNLab.github.io/
