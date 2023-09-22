@@ -57,7 +57,7 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           password: ${{ secrets.SERVER_PASSWORD }}
           source: "public.zip"
-          target: "~/public.zip"
+          target: "~/"
 
       - name: Deploy to server
         uses: appleboy/ssh-action@master
