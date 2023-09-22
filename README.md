@@ -6,7 +6,7 @@ Follow the style outlined [here](https://github.com/RAIVNLab/RAIVNLab.github.io/
 
 ## Updating Papers
 
-If you want to add a publication, 
+If you want to add a publication, update the [publications.json](https://github.com/RAIVNLab/RAIVNLab.github.io/blob/main/src/components/publications.json) file. If you want to add a thumbnail, make sure you've placed it in the [`static/`](https://github.com/RAIVNLab/RAIVNLab.github.io/tree/main/static) directory.
 
 ## Local Development
 
