@@ -3,7 +3,7 @@ name: Deploy to Server
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
@@ -12,7 +12,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-
     - name: Deploy to server
       uses: appleboy/ssh-action@master
       with:
@@ -20,8 +19,4 @@ jobs:
         username: ${{ secrets.SERVER_USERNAME }}
         password: ${{ secrets.SERVER_PASSWORD }}
         script: |
-          cd /cse/web/research/raivn/
-          rm -rf ./*
-          git clone https://github.com/RAIVNLab/RAIVNLab.github.io.git
-          mv RAIVNLab.github.io/* .
-          rm -rf RAIVNLab.github.io/
+          touch github-actions-test.txt

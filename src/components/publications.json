@@ -1,0 +1,2814 @@
+[
+  {
+    "title": "Objaverse-XL: A Universe of 10M+ 3D Objects",
+    "authors": [
+      "Matt Deitke",
+      "Ruoshi Liu",
+      "Matthew Wallingford",
+      "Huong Ngo",
+      "Oscar Michel",
+      "Aditya Kusupati",
+      "Alan Fan",
+      "Christian Laforte",
+      "Vikram Voleti",
+      "Samir Yitzhak Gadre",
+      "Eli VanderBilt",
+      "Aniruddha Kembhavi",
+      "Carl Vondrick",
+      "Georgia Gkioxari",
+      "Kiana Ehsani",
+      "Ludwig Schmidt",
+      "Ali Farhadi"
+    ],
+    "year": "preprint",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/2307.05663",
+      "code": "https://github.com/allenai/objaverse-xl",
+      "project page": "https://objaverse.allenai.org/"
+    },
+    "thumbnail": "/objaverse-xl.jpg"
+  },
+  {
+    "title": "SugarCrepe: Fixing Hackable Benchmarks for Vision-Language Compositionality",
+    "authors": [
+      "Cheng-Yu Hsieh*",
+      "Jieyu Zhang*",
+      "Zixian Ma",
+      "Aniruddha Kembhavi",
+      "Ranjay Krishna"
+    ],
+    "year": "preprint",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/2306.14610",
+      "code": "https://github.com/RAIVNLab/sugar-crepe"
+    },
+    "thumbnail": "/crepe.jpg"
+  },
+  {
+    "title": "On the Connection between Pre-training Data Diversity and Fine-tuning Robustness",
+    "authors": [
+      "Vivek Ramanujan",
+      "Thao Nguyen",
+      "Sewoong Oh",
+      "Ludwig Schmidt",
+      "Ali Farhadi"
+    ],
+    "year": "preprint",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/2307.12532"
+    }
+  },
+  {
+    "title": "MADLAD-400: Monolingual And Document-Level Large Audited Dataset",
+    "authors": [
+      "Sneha Kudugunta",
+      "Isaac Rayburn Caswell",
+      "Biao Zhang",
+      "Xavier Garcia",
+      "Derrick Xin",
+      "Aditya Kusupati",
+      "Romi Stella",
+      "Ankur Bapna",
+      "Orhan Firat"
+    ],
+    "year": "preprint",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/2309.04662"
+    }
+  },
+  {
+    "title": "Neural Priming for Sample-Efficient Adaptation",
+    "authors": [
+      "Matthew Wallingford",
+      "Vivek Ramanujan",
+      "Alex Fang",
+      "Aditya Kusupati",
+      "Roozbeh Mottaghi",
+      "Aniruddha Kembhavi",
+      "Ludwig Schmidt",
+      "Ali Farhadi"
+    ],
+    "year": "preprint",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/2306.10191",
+      "code": "https://github.com/RAIVNLab/neural-priming"
+    }
+  },
+  {
+    "title": "DataComp: In search of the next generation of multimodal datasets",
+    "authors": [
+      "Samir Yitzhak Gadre",
+      "Gabriel Ilharco",
+      "Alex Fang",
+      "Jonathan Hayase",
+      "Georgios Smyrnis",
+      "Thao Nguyen",
+      "Ryan Marten",
+      "Mitchell Wortsman",
+      "Dhruba Ghosh",
+      "Jieyu Zhang",
+      "Eyal Orgad",
+      "Rahim Entezari",
+      "Giannis Daras",
+      "Sarah Pratt",
+      "Vivek Ramanujan",
+      "Yonatan Bitton",
+      "Kalyani Marathe",
+      "Stephen Mussmann",
+      "Richard Vencu",
+      "Mehdi Cherti",
+      "Ranjay Krishna",
+      "Pang Wei Koh",
+      "Olga Saukh",
+      "Alexander Ratner",
+      "Shuran Song",
+      "Hannaneh Hajishirzi",
+      "Ali Farhadi",
+      "Romain Beaumont",
+      "Sewoong Oh",
+      "Alex Dimakis",
+      "Jenia Jitsev",
+      "Yair Carmon",
+      "Vaishaal Shankar",
+      "Ludwig Schmidt."
+    ],
+    "year": "preprint",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/2304.14108",
+      "project page": "https://datacomp.ai/"
+    },
+    "thumbnail": "/datacomp.jpg"
+  },
+  {
+    "title": "MIMIC: Masked Image Modeling with Image Correspondences",
+    "authors": [
+      "Kalyani Marathe",
+      "Mahtab Bigverdi",
+      "Nishat Khan",
+      "Tuhin Kundu",
+      "Aniruddha Kembhavi",
+      "Linda G. Shapiro",
+      "Ranjay Krishna"
+    ],
+    "year": "preprint",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/pdf/2306.15128.pdf",
+      "code": "https://github.com/RAIVNLab/MIMIC"
+    }
+  },
+  {
+    "title": "AdANNS: A Framework for Adaptive Semantic Search",
+    "authors": [
+      "Aniket Rege",
+      "Aditya Kusupati",
+      "Sharan Ranjit S",
+      "Alan Fan",
+      "Qingqing Cao",
+      "Sham Kakade",
+      "Prateek Jain",
+      "Ali Farhadi"
+    ],
+    "year": "preprint",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/2305.19435",
+      "code": "https://github.com/RAIVNLab/AdANNS"
+    }
+  },
+  {
+    "title": "Stable and low-precision training for large-scale vision-language models",
+    "authors": [
+      "Mitchell Wortsman",
+      "Tim Dettmers",
+      "Luke Zettlemoyer",
+      "Ari Morcos",
+      "Ali Farhadi",
+      "Ludwig Schmidt"
+    ],
+    "year": "preprint",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/2304.13013"
+    }
+  },
+  {
+    "title": "VOCALExplore: Pay-as-You-Go Video Data Exploration and Model Building",
+    "authors": [
+      "Maureen Daum",
+      "Enhao Zhang",
+      "Dong He",
+      "Stephen Mussmann",
+      "Brandon Haynes",
+      "Ranjay Krishna",
+      "Magdalena Balazinska"
+    ],
+    "year": "preprint",
+    "venue": "Under Review at VLDB 2023",
+    "links": {
+      "pdf": "https://arxiv.org/pdf/2303.04068"
+    }
+  },
+  {
+    "title": "EQUI-VOCAL: Synthesizing Queries for Compositional Video Events from Limited User Interactions",
+    "authors": [
+      "Enhao Zhang",
+      "Maureen Daum",
+      "Dong He",
+      "Brandon Haynes",
+      "Ranjay Krishna",
+      "Magdalena Balazinska"
+    ],
+    "year": "2023",
+    "venue": "VLDB 2023",
+    "links": {
+      "pdf": "https://arxiv.org/pdf/2301.00929"
+    }
+  },
+  {
+    "title": "Large Language Model as Attributed Training Data Generator: A Tale of Diversity and Bias",
+    "authors": [
+      "Yue Yu*",
+      "Yuchen Zhuang*",
+      "Jieyu Zhang*",
+      "Yu Meng",
+      "Alexander Ratner",
+      "Ranjay Krishna",
+      "Jiaming Shen",
+      "Chao Zhang"
+    ],
+    "year": "2023",
+    "venue": "DMLR @ ICML 2023",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2306.15895",
+      "code": "https://github.com/yueyu1030/AttrPrompt"
+    }
+  },
+  {
+    "title": "TIFA: Text-to-Image Faithfulness Evaluation with Question Answering",
+    "authors": [
+      "Yushi Hu",
+      "Benlin Liu",
+      "Jungo Kasai",
+      "Yizhong Wang",
+      "Mari Ostendorf",
+      "Ranjay Krishna",
+      "Noah A. Smith"
+    ],
+    "year": "2023",
+    "venue": "ICCV 2023",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2303.11897",
+      "project page": "https://tifa-benchmark.github.io/"
+    }
+  },
+  {
+    "title": "What does a platypus look like? Generating customized prompts for zero-shot image classification",
+    "authors": [
+      "Sarah Pratt",
+      "Ian Covert",
+      "Rosanne Liu",
+      "Ali Farhadi"
+    ],
+    "year": "2023",
+    "venue": "ICCV 2023",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2209.03320",
+      "code": "https://github.com/sarahpratt/CuPL"
+    }
+  },
+  {
+    "title": "Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes",
+    "authors": [
+      "Cheng-Yu Hsieh",
+      "Chun-Liang Li",
+      "Chih-Kuan Yeh",
+      "Hootan Nakhost",
+      "Yasuhisa Fujii",
+      "Alexander Ratner",
+      "Ranjay Krishna",
+      "Chen-Yu Lee",
+      "Tomas Pfister"
+    ],
+    "year": "2023",
+    "venue": "ACL 2023 (Findings)",
+    "links": {
+      "pdf": "https://arxiv.org/pdf/2305.02301"
+    }
+  },
+  {
+    "title": "CREPE: Can Vision-Language Foundation Models Reason Compositionally?",
+    "authors": [
+      "Zixian Ma",
+      "Jerry Hong",
+      "Mustafa Omer Gul",
+      "Mona Gandhi",
+      "Irena Gao",
+      "Ranjay Krishna"
+    ],
+    "year": "2023",
+    "venue": "CVPR 2023",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2212.07796"
+    },
+    "thumbnail": "/crepe.jpg"
+  },
+  {
+    "title": "Objaverse: A Universe of Annotated 3D Objects",
+    "thumbnail": "/objaverse-1.png",
+    "authors": [
+      "Matt Deitke",
+      "Dustin Schwenk",
+      "Jordi Salvador",
+      "Luca Weihs",
+      "Oscar Michel",
+      "Eli VanderBilt",
+      "Ludwig Schmidt",
+      "Kiana Ehsani",
+      "Aniruddha Kembhavi",
+      "Ali Farhadi"
+    ],
+    "year": "2023",
+    "venue": "CVPR 2023",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2212.08051",
+      "project page": "https://objaverse.allenai.org/"
+    }
+  },
+  {
+    "title": "Phone2Proc: Bringing Robust Robots Into Our Chaotic World",
+    "thumbnail": "/phone-2-proc.jpg",
+    "authors": [
+      "Matt Deitke",
+      "Rose Hendrix",
+      "Luca Weihs",
+      "Ali Farhadi",
+      "Kiana Ehsani",
+      "Aniruddha Kembhavi"
+    ],
+    "year": "2023",
+    "venue": "CVPR 2023",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2212.04819",
+      "project page": "https://allenai.org/project/phone2proc/home"
+    }
+  },
+  {
+    "title": "Moving Forward by Moving Backward: Embedding Action Impact over Action Semantics",
+    "authors": [
+      "Kuo-Hao Zeng",
+      "Luca Weihs",
+      "Roozbeh Mottaghi",
+      "Ali Farhadi"
+    ],
+    "year": "2023",
+    "venue": "ICLR 2023",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2304.12289",
+      "project page": "https://prior.allenai.org/projects/action-adaptive-policy"
+    }
+  },
+  {
+    "title": "Impossibly Good Experts and How to Follow Them",
+    "authors": [
+      "Aaron Walsman",
+      "Muru Zhang",
+      "Sanjiban Choudhury",
+      "Dieter Fox",
+      "Ali Farhadi"
+    ],
+    "year": "2023",
+    "venue": "ICLR 2023",
+    "links": {
+      "pdf": "https://openreview.net/forum?id=sciA_xgYofB"
+    }
+  },
+  {
+    "title": "Neural Radiance Field Codebooks",
+    "authors": [
+      "Matthew Wallingford",
+      "Aditya Kusupati",
+      "Alex Fang",
+      "Vivek Ramanujan",
+      "Aniruddha Kembhavi",
+      "Roozbeh Mottaghi",
+      "Ali Farhadi"
+    ],
+    "year": "2023",
+    "venue": "ICLR 2023",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2301.04101"
+    }
+  },
+  {
+    "title": "Editing Models with Task Arithmetic",
+    "thumbnail": "/arithmetic.png",
+    "authors": [
+      "Gabriel Ilharco",
+      "Marco Tulio Ribeiro",
+      "Mitchell Wortsman",
+      "Suchin Gururangan",
+      "Ludwig Schmidt",
+      "Hannaneh Hajishirzi",
+      "Ali Farhadi"
+    ],
+    "year": "2023",
+    "venue": "ICLR 2023",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2212.04089",
+      "code": "https://github.com/mlfoundations/task_vectors"
+    }
+  },
+  {
+    "title": "lo-fi: distributed fine-tuning without communication",
+    "authors": [
+      "Mitchell Wortsman",
+      "Suchin Gururangan",
+      "Shen Li",
+      "Ali Farhadi",
+      "Ludwig Schmidt",
+      "Michael Rabbat",
+      "Ari S. Morcos"
+    ],
+    "year": "2023",
+    "venue": "TMLR",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2210.11948"
+    }
+  },
+  {
+    "title": "ELIGN: Expectation Alignment as a Multi-Agent Intrinsic Reward",
+    "authors": [
+      "Zixian Ma",
+      "Rose Wang",
+      "Li Fei-Fei",
+      "Michael Bernstein",
+      "Ranjay Krishna"
+    ],
+    "year": "2022",
+    "venue": "NeurIPS 2022",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2210.04365"
+    }
+  },
+  {
+    "title": "Patching open-vocabulary models by interpolating weights",
+    "authors": [
+      "Gabriel Ilharco*",
+      "Mitchell Wortsman*",
+      "Samir Yitzhak Gadre*",
+      "Shuran Song",
+      "Hannaneh Hajishirzi",
+      "Simon Kornblith",
+      "Ali Farhadi",
+      "Ludwig Schmidt"
+    ],
+    "year": "2022",
+    "venue": "NeurIPS 2022",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2208.05592",
+      "code": "https://github.com/mlfoundations/patching"
+    }
+  },
+  {
+    "title": "ProcTHOR: Large-Scale Embodied AI Using Procedural Generation",
+    "thumbnail": "/procthor-3.jpg",
+    "authors": [
+      "Matt Deitke",
+      "Eli VanderBilt",
+      "Alvaro Herrasti",
+      "Luca Weihs",
+      "Jordi Salvador",
+      "Kiana Ehsani",
+      "Winson Han",
+      "Eric Kolve",
+      "Ali Farhadi",
+      "Aniruddha Kembhavi",
+      "Roozbeh Mottaghi"
+    ],
+    "year": "2022",
+    "venue": "NeurIPS 2022",
+    "award": "Outstanding Paper Award",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2206.06994",
+      "project page": " https://procthor.allenai.org"
+    }
+  },
+  {
+    "title": "Matryoshka Representation Learning",
+    "authors": [
+      "Aditya Kusupati*",
+      "Gantavya Bhatt*",
+      "Aniket Rege*",
+      "Matthew Wallingford",
+      "Aditya Sinha",
+      "Vivek Ramanujan",
+      "William Howard-Snyder",
+      "Kaifeng Chen",
+      "Sham Kakade",
+      "Prateek Jain",
+      "Ali Farhadi"
+    ],
+    "year": "2022",
+    "venue": "NeurIPS 2022",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2205.13147",
+      "code": "https://github.com/RAIVNLab/MRL"
+    }
+  },
+  {
+    "title": "LAION-5B: An open large-scale dataset for training next generation image-text models",
+    "authors": [
+      "Christoph Schuhmann",
+      "Romain Beaumont",
+      "Richard Vencu",
+      "Cade Gordon",
+      "Ross Wightman",
+      "Mehdi Cherti",
+      "Theo Coombes",
+      "Aarush Katta",
+      "Clayton Mullis",
+      "Mitchell Wortsman",
+      "Patrick Schramowski",
+      "Srivatsa Kundurthy",
+      "Katherine Crowson",
+      "Ludwig Schmidt",
+      "Robert Kaczmarczyk",
+      "Jenia Jitsev"
+    ],
+    "year": "2022",
+    "venue": "NeurIPS 2022 Datasets and Benchmarks track",
+    "award": "Outstanding Paper Award",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2210.08402",
+      "project page": "https://laion.ai/laion-5b-a-new-era-of-open-large-scale-multi-modal-datasets/"
+    }
+  },
+  {
+    "title": "Socially situated artificial intelligence enables learning from human interaction",
+    "authors": [
+      "Ranjay Krishna",
+      "Donsuk Lee",
+      "Li Fei-Fei*",
+      "Michael Bernstein"
+    ],
+    "year": "2022",
+    "venue": "PNAS 2022",
+    "links": {
+      "pdf": "https://www.pnas.org/doi/10.1073/pnas.2115730119"
+    }
+  },
+  {
+    "title": "Break and Make: Interactive Structural Understanding Using LEGO Bricks",
+    "authors": [
+      "Aaron Walsman",
+      "Muru Zhang",
+      "Klemen Kotar",
+      "Karthik Desingh",
+      "Ali Farhadi",
+      "Dieter Fox"
+    ],
+    "year": "2022",
+    "venue": "ECCV 2022",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2207.13738",
+      "code": "https://github.com/aaronwalsman/ltron"
+    }
+  },
+  {
+    "title": "Object Manipulation via Visual Target Localization",
+    "authors": [
+      "Kiana Ehsani",
+      "Ali Farhadi",
+      "Aniruddha Kembhavi",
+      "Roozbeh Mottaghi"
+    ],
+    "year": "2022",
+    "venue": "ECCV 2022",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2203.08141"
+    }
+  },
+  {
+    "title": "Exposing the Limits of Video-Text Models through Contrast Sets",
+    "authors": [
+      "Jae Sung Park",
+      "Sheng Shen",
+      "Ali Farhadi",
+      "Trevor Darrell",
+      "Yejin Choi",
+      "Anna Rohrbach"
+    ],
+    "year": "2022",
+    "venue": "NAACL 2022",
+    "links": {
+      "pdf": "https://aclanthology.org/2022.naacl-main.261/"
+    }
+  },
+  {
+    "title": "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time",
+    "authors": [
+      "Mitchell Wortsman",
+      "Gabriel Ilharco",
+      "Samir Yitzhak Gadre",
+      "Rebecca Roelofs",
+      "Raphael Gontijo-Lopes",
+      "Ari S. Morcos",
+      "Hongseok Namkoong",
+      "Ali Farhadi",
+      "Yair Carmon*",
+      "Simon Kornblith*",
+      "Ludwig Schmidt*"
+    ],
+    "year": "2022",
+    "venue": "ICML 2022",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2203.05482",
+      "code": "https://github.com/mlfoundations/model-soups"
+    }
+  },
+  {
+    "title": "Robust fine-tuning of zero-shot models",
+    "authors": [
+      "Mitchell Wortsman*",
+      "Gabriel Ilharco*",
+      "Jong Wook Kim",
+      "Mike Li",
+      "Simon Kornblith",
+      "Rebecca Roelofs",
+      "Raphael Gontijo Lopes",
+      "Hannaneh Hajishirzi",
+      "Ali Farhadi",
+      "Hongseok Namkoong",
+      "Ludwig Schmidt"
+    ],
+    "year": "2022",
+    "venue": "CVPR 2022",
+    "award": "Best Paper Honorable Mention",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2109.01903",
+      "code": "https://github.com/mlfoundations/wise-ft"
+    }
+  },
+  {
+    "title": "MERLOT Reserve: Neural Script Knowledge through Vision and Language and Sound",
+    "thumbnail": "/merlot-reserve.jpg",
+    "authors": [
+      "Rowan Zellers",
+      "Jiasen Lu",
+      "Ximing Lu",
+      "Youngjae Yu",
+      "Yanpeng Zhao",
+      "Mohammadreza Salehi",
+      "Aditya Kusupati",
+      "Jack Hessel",
+      "Ali Farhadi",
+      "Yejin Choi"
+    ],
+    "year": "2022",
+    "venue": "CVPR 2022",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2201.02639",
+      "project page": "https://rowanzellers.com/merlotreserve"
+    }
+  },
+  {
+    "title": "Forward Compatible Training for Representation Learning",
+    "authors": [
+      "Vivek Ramanujan",
+      "Pavan Kumar Anasosalu Vasu",
+      "Ali Farhadi",
+      "Oncel Tuzel",
+      "Hadi Pouransari"
+    ],
+    "year": "2022",
+    "venue": "CVPR 2022",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2112.02805"
+    }
+  },
+  {
+    "title": "FMeasuring Compositional Consistency for Video Question Answering",
+    "authors": [
+      "Mona Gandhi*",
+      "Mustafa Omer Gul*",
+      "Eva Prakash",
+      "Madeleine Grunde-McLaughlin",
+      "Ranjay Krishna",
+      "Maneesh Agrawala"
+    ],
+    "year": "2022",
+    "venue": "CVPR 2022",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2204.07190"
+    }
+  },
+  {
+    "title": "VOCAL: Video Organization and Interactive AnaLytics",
+    "authors": [
+      "Maureem Daum*",
+      "Enhao Zhang*",
+      "Dong He",
+      "Magdalena Balazinska",
+      "Brandon Hayes",
+      "Ranjay Krishna",
+      "Apryle Craig",
+      "Aaron Wirsing"
+    ],
+    "year": "2022",
+    "venue": "CIDR 2022",
+    "links": {
+      "pdf": "http://cidrdb.org/cidr2022/papers/p41-daum.pdf"
+    }
+  },
+  {
+    "title": "ProtoSound: A Personalized and Scalable Sound Recognition System for Deaf and Hard-of-Hearing Users",
+    "authors": [
+      "Dhruv Jain",
+      "Khoa Huynh Anh Nguyen",
+      "Steven Goodman",
+      "Rachel Grossman-Kahn",
+      "Hung Ngo",
+      "Aditya Kusupati",
+      "Ruofei Du",
+      "Alex Olwal",
+      "Leah Findlater",
+      "Jon E. Froehlich"
+    ],
+    "year": "2022",
+    "venue": "CHI 2022",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2202.11134"
+    }
+  },
+  {
+    "title": "The Introspective Agent: Interdependence of Strategy, Physiology, and Sensing for Embodied Agents",
+    "authors": [
+      "Sarah Pratt",
+      "Luca Weihs",
+      "Ali Farhadi"
+    ],
+    "year": "2022",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/2201.00411",
+      "code": "https://github.com/sarahpratt/introspective"
+    }
+  },
+  {
+    "title": "LCS: Learning Compressible Subspaces for Adaptive Network Compression at Inference Time",
+    "authors": [
+      "Elvis Nunez*",
+      "Maxwell Horton*",
+      "Anish Prabhu",
+      "Anurag Ranjan",
+      "Ali Farhadi",
+      "Mohammad Rastegari"
+    ],
+    "year": "2022",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/2110.04252"
+    }
+  },
+  {
+    "title": "FiG-NeRF: Figure-Ground Neural Radiance Fields for 3D Object Category Modelling",
+    "authors": [
+      "Christopher Xie",
+      "Keunhong Park",
+      "Ricardo Martin-Brualla",
+      "Matthew Brown"
+    ],
+    "year": "2021",
+    "venue": "3DV 2021",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2104.08418",
+      "project page": "https://fig-nerf.github.io/"
+    }
+  },
+  {
+    "title": "MERLOT: Multimodal Neural Script Knowledge Models",
+    "thumbnail": "/merlot.jpg",
+    "authors": [
+      "Rowan Zellers",
+      "Ximing Lu",
+      "Jack Hessel",
+      "Youngjae Yu",
+      "Jae Sung Park",
+      "Jize Cao",
+      "Ali Farhadi",
+      "Yejin Choi"
+    ],
+    "year": "2021",
+    "venue": "NeurIPS 2021",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2106.02636",
+      "project page": "https://rowanzellers.com/merlot/"
+    }
+  },
+  {
+    "title": "LLC: Accurate, Multi-purpose Learnt Low-dimensional Binary Codes",
+    "authors": [
+      "Aditya Kusupati",
+      "Matthew Wallingford",
+      "Vivek Ramanujan",
+      "Raghav Somani",
+      "Jae Sung Park",
+      "Krishna Pillutla",
+      "Prateek Jain",
+      "Sham Kakade",
+      "Ali Farhadi"
+    ],
+    "year": "2021",
+    "venue": "NeurIPS 2021",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2106.01487",
+      "code": "https://github.com/RAIVNLab/LLC"
+    }
+  },
+  {
+    "title": "LanguageRefer: Spatial-Language Model for 3D Visual Grounding",
+    "authors": [
+      "Junha Roh",
+      "Karthik Desingh",
+      "Ali Farhadi",
+      "Dieter Fox"
+    ],
+    "year": "2021",
+    "venue": "CoRL 2021",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2107.03438",
+      "project page": "https://sites.google.com/view/language-refer"
+    }
+  },
+  {
+    "title": "HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields",
+    "authors": [
+      "Keunhong Park",
+      "Utkarsh Sinha",
+      "Peter Hedman",
+      "Jonathan T. Barron",
+      "Sofien Bouaziz",
+      "Dan B Goldman",
+      "Ricardo Martin-Brualla",
+      "Steven M. Seitz"
+    ],
+    "year": "2021",
+    "venue": "SIGGRAPH Asia 2021",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2106.13228",
+      "project page": "https://hypernerf.github.io/"
+    }
+  },
+  {
+    "title": "Finetuning Pretrained Transformers into RNNs",
+    "authors": [
+      "Jungo Kasai",
+      "Hao Peng",
+      "Yizhe Zhang",
+      "Dani Yogatama",
+      "Gabriel Ilharco",
+      "Nikolaos Pappas",
+      "Yi Mao",
+      "Weizhu Chen",
+      "Noah A Smith"
+    ],
+    "year": "2021",
+    "venue": "EMNLP 2021",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2103.13076"
+    }
+  },
+  {
+    "title": "Parameter Norm Growth During Training of Transformers",
+    "authors": [
+      "William Merrill",
+      "Vivek Ramanujan",
+      "Yoav Goldberg",
+      "Roy Schwartz",
+      "Noah A. Smith"
+    ],
+    "year": "2021",
+    "venue": "EMNLP 2021",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2010.09697"
+    }
+  },
+  {
+    "title": "Deformable Neural Radiance Fields",
+    "authors": [
+      "Keunhong Park",
+      "Utkarsh Sinha",
+      "Jonathan T. Barron",
+      "Sofien Bouaziz",
+      "Dan B Goldman",
+      "Steven M. Seitz",
+      "Ricardo Martin-Brualla"
+    ],
+    "year": "2021",
+    "venue": "ICCV 2021",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2011.12948",
+      "project page": "https://nerfies.github.io/"
+    }
+  },
+  {
+    "title": "Contrasting Contrastive Self-Supervised Representation Learning Models",
+    "authors": [
+      "Klemen Kotar",
+      "Gabriel Ilharco",
+      "Ludwig Schmidt",
+      "Kiana Ehsani",
+      "Roozbeh Mottaghi"
+    ],
+    "year": "2021",
+    "venue": "ICCV 2021",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2103.14005"
+    }
+  },
+  {
+    "title": "PIGLeT: Language Grounding Through Neuro-Symbolic Interaction in a 3D World",
+    "authors": [
+      "Rowan Zellers",
+      "Ari Holtzman",
+      "Matthew Peters",
+      "Roozbeh Mottaghi",
+      "Aniruddha Kembhavi",
+      "Ali Farhadi",
+      "Yejin Choi"
+    ],
+    "year": "2021",
+    "venue": "ACL 2021",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2106.00188",
+      "project page": "https://rowanzellers.com/piglet/"
+    }
+  },
+  {
+    "title": "Learning Neural Network Subspaces",
+    "authors": [
+      "Mitchell Wortsman",
+      "Maxwell Horton",
+      "Carlos Guestrin",
+      "Ali Farhadi",
+      "Mohammad Rastegari"
+    ],
+    "year": "2021",
+    "venue": "ICML 2021",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2102.10472",
+      "code": "https://github.com/apple/learning-subspaces"
+    }
+  },
+  {
+    "title": "Probing Text Models for Common Ground with Visual Representations",
+    "authors": [
+      "Gabriel Ilharco",
+      "Rowan Zellers",
+      "Ali Farhadi",
+      "Hannaneh Hajishirzi"
+    ],
+    "year": "2021",
+    "venue": "NAACL 2021",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2005.00619"
+    }
+  },
+  {
+    "title": "TuringAdvice: A Generative and Dynamic Evaluation of Language Use",
+    "authors": [
+      "Rowan Zellers",
+      "Ari Holtzman",
+      "Elizabeth Clark",
+      "Lianhui Qin",
+      "Ali Farhadi",
+      "Yejin Choi"
+    ],
+    "year": "2021",
+    "venue": "NAACL 2021",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2004.03607",
+      "project page": "https://rowanzellers.com/advice/"
+    }
+  },
+  {
+    "title": "Pushing it out of the Way: Interactive Visual Navigation",
+    "authors": [
+      "Kuo-Hao Zeng",
+      "Luca Weihs",
+      "Ali Farhadi",
+      "Roozbeh Mottaghi"
+    ],
+    "year": "2021",
+    "venue": "CVPR 2021",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2104.14040",
+      "project page": "https://prior.allenai.org/projects/interactive-visual-navigation",
+      "code": "https://github.com/KuoHaoZeng/Interactive_Visual_Navigation"
+    }
+  },
+  {
+    "title": "ManipulaTHOR: A Framework for Visual Object Manipulation",
+    "authors": [
+      "Kiana Ehsani",
+      "Winson Han",
+      "Alvaro Herrasti",
+      "Eli VanderBilt",
+      "Eric Kolve",
+      "Luca Weihs",
+      "Aniruddha Kembhavi",
+      "Roozbeh Mottaghi"
+    ],
+    "year": "2021",
+    "venue": "CVPR 2021",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2104.11213",
+      "code": "https://github.com/allenai/manipulathor"
+    }
+  },
+  {
+    "title": "What Can You Learn from Your Muscles? Learning Visual Representation from Human Interactions",
+    "authors": [
+      "Kiana Ehsani",
+      "Daniel Gordon",
+      "Thomas Nguyen",
+      "Roozbeh Mottaghi",
+      "Ali Farhadi"
+    ],
+    "year": "2021",
+    "venue": "ICLR 2021",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2010.08539",
+      "code": "https://github.com/ehsanik/muscleTorch"
+    }
+  },
+  {
+    "title": "Learning Generalizable Visual Representations via Interactive Gameplay",
+    "authors": [
+      "Luca Weihs",
+      "Aniruddha Kembhavi",
+      "Kiana Ehsani",
+      "Sarah Pratt",
+      "Winson Han",
+      "Alvaro Herrasti",
+      "Eric Kolve",
+      "Dustin Schwenk",
+      "Roozbeh Mottaghi",
+      "Ali Farhadi"
+    ],
+    "year": "2021",
+    "venue": "ICLR 2021",
+    "links": {
+      "pdf": "https://openreview.net/forum?id=UuchYL8wSZo"
+    }
+  },
+  {
+    "title": "MultiModalQA: complex question answering over text, tables and images",
+    "authors": [
+      "Alon Talmor",
+      "Ori Yoran",
+      "Amnon Catav",
+      "Dan Lahav",
+      "Yizhong Wang",
+      "Akari Asai",
+      "Gabriel Ilharco",
+      "Hannaneh Hajishirzi",
+      "Jonathan Berant"
+    ],
+    "year": "2021",
+    "venue": "ICLR 2021",
+    "links": {
+      "pdf": "https://openreview.net/forum?id=ee6W5UgQLa"
+    }
+  },
+  {
+    "title": "Layer-Wise Data-Free CNN Compression",
+    "authors": [
+      "Maxwell Horton",
+      "Yanzi Jin",
+      "Ali Farhadi",
+      "Mohammad Rastegari"
+    ],
+    "year": "2021",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/2011.09058"
+    }
+  },
+  {
+    "title": "AllenAct: A Framework for Embodied AI Research",
+    "authors": [
+      "Luca Weihs",
+      "Jordi Salvador",
+      "Klemen Kotar",
+      "Unnat Jain",
+      "Kuo-Hao Zeng",
+      "Roozbeh Mottaghi",
+      "Aniruddha Kembhavi"
+    ],
+    "year": "2021",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/2008.12760",
+      "code": "https://github.com/allenai/allenact",
+      "project page": "https://allenact.org/"
+    }
+  },
+  {
+    "title": "Are We Overfitting to Experimental Setups in Recognition?",
+    "authors": [
+      "Matthew Wallingford",
+      "Aditya Kusupati*",
+      "Keivan Alizadeh-Vahid*",
+      "Aaron Walsman",
+      "Aniruddha Kembhavi",
+      "Ali Farhadi"
+    ],
+    "year": "2021",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/2007.02519",
+      "code": "https://github.com/RAIVNLab/InTheWild",
+      "project page": "https://raivn.cs.washington.edu/projects/FLUID"
+    }
+  },
+  {
+    "title": "Watching the World Go By: Representation Learning from Unlabeled Videos",
+    "authors": [
+      "Daniel Gordon",
+      "Kiana Ehsani",
+      "Dieter Fox",
+      "Ali Farhadi"
+    ],
+    "year": "2021",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/2003.07990",
+      "project page": "https://danielgordon10.github.io/papers/vince.html",
+      "code": "https://github.com/danielgordon10/vince"
+    }
+  },
+  {
+    "title": "Fine-Tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping",
+    "authors": [
+      "Jesse Dodge",
+      "Gabriel Ilharco",
+      "Roy Schwartz",
+      "Ali Farhadi",
+      "Hannaneh Hajishirzi",
+      "Noah A. Smith"
+    ],
+    "year": "2021",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/2002.06305"
+    }
+  },
+  {
+    "title": "Natural Language Rationales with Full-Stack Visual Reasoning: From Pixels to Semantic Frames to Commonsense Graphs",
+    "authors": [
+      "Ana Marasovic",
+      "Chandra Bhagavatula",
+      "Jae Sung Park",
+      "Ronan Le Bras",
+      "Noah A. Smith",
+      "Yejin Choi"
+    ],
+    "year": "2020",
+    "venue": "EMNLP (Findings) 2020",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2010.07526"
+    }
+  },
+  {
+    "title": "Multiple Topologies Prediction for Navigation at Unsignalized Intersections",
+    "authors": [
+      "Junha Roh*",
+      "Christoforos Mavrogiannis*",
+      "Rishabh Madan*",
+      "Dieter Fox",
+      "Siddhartha S. Srinivasa"
+    ],
+    "year": "2020",
+    "venue": "CoRL 2020",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2011.03894",
+      "project page": "https://sites.google.com/view/multiple-topologies-prediction",
+      "code": "https://github.com/rohjunha/multiple-topologies-prediction"
+    }
+  },
+  {
+    "title": "Supermasks in Superposition",
+    "authors": [
+      "Mitchell Wortsman*",
+      "Vivek Ramanujan*",
+      "Rosanne Liu",
+      "Aniruddha Kembhavi",
+      "Mohammad Rastegari",
+      "Jason Yosinski",
+      "Ali Farhadi"
+    ],
+    "year": "2020",
+    "venue": "NeurIPS 2020",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2006.14769",
+      "code": "https://github.com/RAIVNLab/supsup"
+    }
+  },
+  {
+    "title": "RNNPool: Efficient Non-linear Pooling for RAM Constrained Inference",
+    "authors": [
+      "Oindrila Saha",
+      "Aditya Kusupati",
+      "Harsha Vardhan Simhadri",
+      "Manik Varma",
+      "Prateek Jain"
+    ],
+    "year": "2020",
+    "venue": "NeurIPS 2020",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2002.11921",
+      "code": "https://github.com/microsoft/EdgeML"
+    }
+  },
+  {
+    "title": "A Cordial Sync: Going Beyond Marginal Policies for Multi-Agent Embodied Tasks",
+    "authors": [
+      "Unnat Jain",
+      "Luca Weihs",
+      "Eric Kolve",
+      "Ali Farhadi",
+      "Svetlana Lazebnik",
+      "Aniruddha Kembhavi",
+      "Alexander Schwing"
+    ],
+    "year": "2020",
+    "venue": "ECCV 2020",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2007.04979",
+      "project page": "https://unnat.github.io/cordial-sync"
+    }
+  },
+  {
+    "title": "Visual Commonsense Graphs: Reasoning about the Dynamic Context of a Still Image",
+    "authors": [
+      "Jae Sung Park",
+      "Chandra Bhagavatula",
+      "Roozbeh Mottaghi",
+      "Ali Farhadi",
+      "Yejin Choi"
+    ],
+    "year": "2020",
+    "venue": "ECCV 2020",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2004.10796",
+      "project page": "https://visualcomet.xyz"
+    }
+  },
+  {
+    "title": "Grounded Situation Recognition",
+    "authors": [
+      "Sarah Pratt",
+      "Mark Yatskar",
+      "Luca Weihs",
+      "Ali Farhadi",
+      "Aniruddha Kembhavi"
+    ],
+    "year": "2020",
+    "venue": "ECCV 2020",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2003.12058",
+      "project page": "https://prior.allenai.org/projects/gsr"
+    }
+  },
+  {
+    "title": "Identity Aware Multi-Sentence Video Description",
+    "authors": [
+      "Jae Sung Park",
+      "Trevor Darrell",
+      "Anna Rohrbach"
+    ],
+    "year": "2020",
+    "venue": "ECCV 2020",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2008.09791",
+      "project page": "https://sites.google.com/site/describingmovies/lsmdc-2019"
+    }
+  },
+  {
+    "title": "Soft Threshold Weight Reparameterization for Learnable Sparsity",
+    "authors": [
+      "Aditya Kusupati",
+      "Vivek Ramanujan*",
+      "Raghav Somani*",
+      "Mitchell Wortsman*",
+      "Prateek Jain",
+      "Sham Kakade",
+      "Ali Farhadi"
+    ],
+    "year": "2020",
+    "venue": "ICML 2020",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2002.03231",
+      "code": "https://github.com/RAIVNLab/STR",
+      "project page": "https://homes.cs.washington.edu/~kusupati/#Kusupati20"
+    }
+  },
+  {
+    "title": "Adversarial Filters of Dataset Biases",
+    "authors": [
+      "Ronan Le Bras",
+      "Swabha Swayamdipta",
+      "Chandra Bhagavatula",
+      "Rowan Zellers",
+      "Matthew Peters",
+      "Ashish Sabharwal",
+      "Yejin Choi"
+    ],
+    "year": "2020",
+    "venue": "ICML 2020",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2002.04108"
+    }
+  },
+  {
+    "title": "What\u2019s Hidden in a Randomly Weighted Neural Network?",
+    "authors": [
+      "Vivek Ramanujan*",
+      "Mitchell Wortsman*",
+      "Aniruddha Kembhavi",
+      "Ali Farhadi",
+      "Mohammad Rastegari"
+    ],
+    "year": "2020",
+    "venue": "CVPR 2020",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1911.13299",
+      "code": "https://github.com/allenai/hidden-networks"
+    }
+  },
+  {
+    "title": "RoboTHOR: An Open Simulation-to-Real Embodied AI Platform",
+    "thumbnail": "/robothor-small.jpg",
+    "authors": [
+      "Matt Deitke",
+      "Winson Han",
+      "Alvaro Herrasti",
+      "Aniruddha Kembhavi",
+      "Eric Kolve",
+      "Roozbeh Mottaghi",
+      "Jordi Salvador",
+      "Dustin Schwenk",
+      "Eli VanderBilt",
+      "Mathew Walingford",
+      "Luca Weihs",
+      "Mark Yatskar",
+      "Ali Farhadi"
+    ],
+    "year": "2020",
+    "venue": "CVPR 2020",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2004.06799",
+      "project page": "https://ai2thor.allenai.org/robothor/"
+    }
+  },
+  {
+    "title": "Visual Reaction: Learning to Play Catch with Your Drone",
+    "authors": [
+      "Kuo-Hao Zeng",
+      "Roozbeh Mottaghi",
+      "Luca Weihs",
+      "Ali Farhadi"
+    ],
+    "year": "2020",
+    "venue": "CVPR 2020",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1912.02155",
+      "code": "http://github.com/KuoHaoZeng/Visual_Reaction"
+    }
+  },
+  {
+    "title": "Butterfly Transform: An Efficient FFT Based Neural Architecture Design",
+    "authors": [
+      "Keivan Alizadeh-Vahid",
+      "Anish Prabhu",
+      "Ali Farhadi",
+      "Mohammad Rastegari"
+    ],
+    "year": "2020",
+    "venue": "CVPR 2020",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1906.02256",
+      "code": "https://github.com/keivanalizadeh/ButterflyTransform"
+    }
+  },
+  {
+    "title": "Use the Force, Luke! Learning to Predict Physical Forces by Simulating Effects",
+    "authors": [
+      "Kiana Ehsani",
+      "Shubham Tulsiani",
+      "Saurabh Gupta",
+      "Ali Farhadi",
+      "Abhinav Gupta"
+    ],
+    "year": "2020",
+    "venue": "CVPR 2020",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2003.12045",
+      "project page": "https://ehsanik.github.io/forcecvpr2020/",
+      "code": "https://github.com/ehsanik/touchTorch"
+    }
+  },
+  {
+    "title": "ALFRED: A Benchmark for Interpreting Grounded Instructions for Everyday Tasks",
+    "authors": [
+      "Mohit Shridhar",
+      "Jesse Thomason",
+      "Daniel Gordon",
+      "Yonatan Bisk",
+      "Winson Han",
+      "Roozbeh Mottaghi",
+      "Luke Zettlemoyer",
+      "Dieter Fox"
+    ],
+    "year": "2020",
+    "venue": "CVPR 2020",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1912.01734",
+      "project page": "https://askforalfred.com/",
+      "code": "https://github.com/askforalfred/alfred"
+    }
+  },
+  {
+    "title": "LatentFusion: End-to-End Differentiable Reconstruction and Rendering for Unseen Object Pose Estimation",
+    "authors": [
+      "Keunhong Park",
+      "Arsalan Mousavian",
+      "Yu Xiang",
+      "Dieter Fox"
+    ],
+    "year": "2020",
+    "venue": "CVPR 2020",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1912.00416",
+      "code": "https://github.com/NVlabs/latentfusion"
+    }
+  },
+  {
+    "title": "Discovering Neural Wirings",
+    "authors": [
+      "Mitchel Wortsman",
+      "Ali Farhadi",
+      "Mohammad Rastegari"
+    ],
+    "year": "2019",
+    "venue": "NeurIPS 2019",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1906.00586",
+      "project page": "https://prior.allenai.org/projects/discovering-neural-wirings",
+      "code": "https://github.com/allenai/dnw"
+    }
+  },
+  {
+    "title": "Defending Against Neural Fake news",
+    "authors": [
+      "Rowan Zellers",
+      "Ari Holtzman",
+      "Hannah Rashkin",
+      "Yonatan Bisk",
+      "Ali Farhadi",
+      "Franziska Roesner",
+      "Yejin Choi"
+    ],
+    "year": "2019",
+    "venue": "NeurIPS 2019",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1905.12616",
+      "project page": "https://rowanzellers.com/grover/",
+      "code": "http://github.com/rowanz/grover"
+    }
+  },
+  {
+    "title": "Conditional Driving from Natural Language Instructions",
+    "authors": [
+      "Junha Roh",
+      "Chris Paxton",
+      "Andrezej Pronobis",
+      "Ali Farhadi",
+      "Dieter Fox"
+    ],
+    "year": "2019",
+    "venue": "CoRL 2019",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1910.07615",
+      "project page": "https://sites.google.com/view/language-grounded-driving",
+      "code": "https://github.com/rohjunha/language-grounded-driving"
+    }
+  },
+  {
+    "title": "Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index",
+    "authors": [
+      "Minjoon Seo",
+      "J Lee",
+      "Tom Kwiatkowski",
+      "AP Parikh",
+      "Ali Farhadi",
+      "Hannaneh Hajishirzi"
+    ],
+    "year": "2019",
+    "venue": "ACL 2019",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1906.05807",
+      "code": "https://github.com/uwnlp/denspi"
+    }
+  },
+  {
+    "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+    "authors": [
+      "Rowan Zellers",
+      "A Holtzman",
+      "Yonatan Bisk",
+      "Ali Farhadi",
+      "Yejin Choi"
+    ],
+    "year": "2019",
+    "venue": "ACL 2019",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1905.07830",
+      "project page": "https://rowanzellers.com/hellaswag/",
+      "code": "https://github.com/rowanz/hellaswag"
+    }
+  },
+  {
+    "title": "Learning to Learn How to Learn:Self-Adaptive Visual Navigation Using Meta-Learning",
+    "authors": [
+      "Mitchell Wortsman",
+      "Kiana Ehsani",
+      "Mohammad Rastegari",
+      "Ali Farhadi",
+      "Roozbeh Mottaghi"
+    ],
+    "year": "2019",
+    "venue": "CVPR 2019",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1812.00971",
+      "code": "https://github.com/allenai/savn"
+    }
+  },
+  {
+    "title": "From Recognition to Cognition: Visual Commonsense Reasoning",
+    "authors": [
+      "Rowan Zellers",
+      "Yonatan Bisk",
+      "Ali Farhadi",
+      "Yejin Choi"
+    ],
+    "year": "2019",
+    "venue": "CVPR 2019",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1811.10830",
+      "project page": "https://visualcommonsense.com/",
+      "code": "https://github.com/rowanz/r2c/"
+    }
+  },
+  {
+    "title": "OK-VQA: A Visual Question Answering Benchmark Requiring External Knowledge",
+    "authors": [
+      "Kenneth Marino",
+      "Mohammad Rastegari",
+      "Ali Farhadi",
+      "Roozbeh Mottaghi"
+    ],
+    "year": "2019",
+    "venue": "CVPR 2019",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1906.00067"
+    }
+  },
+  {
+    "title": "Video Relationship Reasoning using Gated Spatio-Temporal Energy Graph",
+    "authors": [
+      "Yao-Hung Hubert Tsai",
+      "Santosh Divvala",
+      "Louis-Philippe Morency",
+      "Ruslan Salakhutdinov",
+      "Ali Farhadi"
+    ],
+    "year": "2019",
+    "venue": "CVPR 2019",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1903.10547"
+    }
+  },
+  {
+    "title": "ELASTIC: Improving CNNs with Instance Specific Scaling Policies",
+    "authors": [
+      "Huiyu Wang",
+      "Aniruddha Kembhavi",
+      "Ali Farhadi",
+      "Alan Yuille",
+      "Mohammad Rastegari"
+    ],
+    "year": "2019",
+    "venue": "CVPR 2019",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1812.05262"
+    }
+  },
+  {
+    "title": "Two Body Problem: Collaborative Visual Task Completion",
+    "authors": [
+      "Unnat Jain",
+      "Luca Weihs",
+      "Eric Kolve",
+      "Mohammad Rastegari",
+      "Svetlana Lazebnik",
+      "Ali Farhadi",
+      "Alexander Schwing",
+      "Aniruddha Kembhavi"
+    ],
+    "year": "2019",
+    "venue": "CVPR 2019",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1904.05879"
+    }
+  },
+  {
+    "title": "SplitNet: Sim2Sim and Task2Task Transfer for Embodied Visual Navigation",
+    "authors": [
+      "Daniel Gordon",
+      "Abhishek Kadian",
+      "Devi Parikh",
+      "Judy Hoffman",
+      "Dhruv Batra"
+    ],
+    "year": "2019",
+    "venue": "ICCV 2019",
+    "links": {
+      "pdf": "https://danielgordon10.github.io/pdfs/splitnet.pdf",
+      "code": "https://github.com/facebookresearch/splitnet"
+    }
+  },
+  {
+    "title": "Shifting the Baseline: Single Modality Performance on Visual Navigation & QA",
+    "authors": [
+      "Jesse Thomason",
+      "Daniel Gordon",
+      "Yonatan Bisk"
+    ],
+    "year": "2019",
+    "venue": "NAACL 2019 Short Papers",
+    "links": {
+      "pdf": "https://danielgordon10.github.io/pdfs/shifting_baseline.pdf"
+    }
+  },
+  {
+    "title": "Visual Semantic Navigation using Scene Priors",
+    "authors": [
+      "Wei Yang",
+      "Xiaolong Wang",
+      "Ali Farhadi",
+      "Abhinav Gupta",
+      "Roozbeh Mottaghi"
+    ],
+    "year": "2019",
+    "venue": "ICLR 2019",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1810.06543"
+    }
+  },
+  {
+    "title": "What Should I Do Now? Marrying Reinforcement Learning and Symbolic Planning",
+    "authors": [
+      "Daniel Gordon",
+      "Dieter Fox",
+      "Ali Farhadi"
+    ],
+    "year": "2018",
+    "venue": null,
+    "links": {
+      "pdf": "https://danielgordon10.github.io/pdfs/hiprl.pdf",
+      "project page": "https://danielgordon10.github.io/papers/hiprl.html"
+    }
+  },
+  {
+    "title": "Label refinery: Improving imagenet classification through label progression",
+    "authors": [
+      "Hessam Bagherinezhad",
+      "Maxwell Horton",
+      "Mohammad Rastegari",
+      "Ali Farhadi"
+    ],
+    "year": "2018",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/1805.02641",
+      "code": "https://github.com/hessamb/label-refinery"
+    }
+  },
+  {
+    "title": "YOLOv3: An Incremental Improvement",
+    "authors": [
+      "Joseph Redmon",
+      "Ali Farhadi"
+    ],
+    "year": "2018",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/1804.02767",
+      "project page": "https://pjreddie.com/darknet/yolo/"
+    }
+  },
+  {
+    "title": "Phrase-Indexed Question Answering: A New Challenge for Scalable Document Comprehension",
+    "authors": [
+      "Minjoon Seo",
+      "Tom Kwiatkowski",
+      "Ankur P. Parikh",
+      "Ali Farhadi",
+      "Hannaneh Hajishirzi"
+    ],
+    "year": "2018",
+    "venue": "EMNLP 2018",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1804.07726",
+      "code": "https://github.com/uwnlp/piqa"
+    }
+  },
+  {
+    "title": "PhotoShape: Photorealistic Materials for Large-Scale Shape Collections",
+    "authors": [
+      "Keunhong Park",
+      "Konstantinos Rematas",
+      "Ali Farhadi",
+      "Steve Seitz"
+    ],
+    "year": "2018",
+    "venue": "SIGGRAPH Asia 2018",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1809.09761",
+      "project page": "https://keunhong.com/publications/photoshape/",
+      "code": "https://github.com/keunhong/photoshape"
+    }
+  },
+  {
+    "title": "Imagine This! Scripts to Compositions to Videos",
+    "authors": [
+      "Tanmay Gupta",
+      "Dustin Schwenk",
+      "Ali Farhadi",
+      "Derek Hoiem",
+      "Aniruddha Kembhavi"
+    ],
+    "year": "2018",
+    "venue": "ECCV 2018",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1804.03608"
+    }
+  },
+  {
+    "title": "Transferring Common-Sense Knowledge for Object Detection",
+    "authors": [
+      "Krishna Kumar Singh",
+      "Santosh Kumar Divvala",
+      "Ali Farhadi",
+      "Yong Jae Lee"
+    ],
+    "year": "2018",
+    "venue": "ECCV 2019",
+    "links": {
+      "pdf": "http://openaccess.thecvf.com/content_ECCV_2018/papers/Krishna_Kumar_Singh_Transferring_Common-Sense_Knowledge_ECCV_2018_paper.pdf"
+    }
+  },
+  {
+    "title": "Who Let The Dogs Out? Modeling Dog Behavior From Visual Data",
+    "authors": [
+      "Kiana Ehsani",
+      "Hessam Bagherinezhad",
+      "Joseph Redmon",
+      "Roozbeh Mottaghi",
+      "Ali Farhadi"
+    ],
+    "year": "2018",
+    "venue": "CVPR 2018",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1803.10827",
+      "code": "https://github.com/ehsanik/dogTorch"
+    }
+  },
+  {
+    "title": "Segan: Segmenting and generating the invisible",
+    "authors": [
+      "Kiana Ehsani",
+      "Roozbeh Mottaghi",
+      "Ali Farhadi"
+    ],
+    "year": "2018",
+    "venue": "CVPR 2018",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1703.10239",
+      "code": "https://github.com/ehsanik/SeGAN"
+    }
+  },
+  {
+    "title": "Actor and Observer: Joint Modeling of First and Third-Person Videos",
+    "authors": [
+      "Gunnar Sigurdsson",
+      "Abhinav Gupta",
+      "Cordelia Schmid",
+      "Ali Farhadi",
+      "Karteek Alahari"
+    ],
+    "year": "2018",
+    "venue": "CVPR 2018",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1804.09627"
+    }
+  },
+  {
+    "title": "Structured Set Matching Networks for One-Shot Part Labeling",
+    "authors": [
+      "Jonghyun Choi",
+      "Jayant Krishnamurthy",
+      "Aniruddha Kembhavi",
+      "Ali Farhadi"
+    ],
+    "year": "2018",
+    "venue": "CVPR 2018",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1712.01867"
+    }
+  },
+  {
+    "title": "IQA: Visual Question Answering in Interactive Environments",
+    "authors": [
+      "Daniel Gordon",
+      "Aniruddha Kembhavi",
+      "Mohammad Rastegari",
+      "Joseph Redmon",
+      "Dieter Fox",
+      "Ali Farhadi"
+    ],
+    "year": "2018",
+    "venue": "CVPR 2018",
+    "award": "NVIDIA Pioneering Research Award",
+    "links": {
+      "pdf": "https://danielgordon10.github.io/pdfs/iqa.pdf",
+      "project page": "https://danielgordon10.github.io/papers/iqa.html",
+      "code": "https://github.com/danielgordon10/thor-iqa-cvpr-2018"
+    }
+  },
+  {
+    "title": "Neural Speed Reading via Skim-RNN",
+    "authors": [
+      "Minjoon Seo",
+      "Sewon Min",
+      "Ali Farhadi",
+      "Hannaneh Hajishirzi"
+    ],
+    "year": "2018",
+    "venue": "ICLR 2018",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1711.02085"
+    }
+  },
+  {
+    "title": "Re3: Real-Time Recurrent Regression Networks for Visual Tracking of Generic Objects",
+    "authors": [
+      "Daniel Gordon",
+      "Ali Farhadi",
+      "Dieter Fox"
+    ],
+    "year": "2018",
+    "venue": "RAL 2018",
+    "links": {
+      "pdf": "https://danielgordon10.github.io/pdfs/re3.pdf",
+      "project page": "https://danielgordon10.github.io/papers/re3.html",
+      "code": "https://gitlab.com/danielgordon10/re3-tensorflow"
+    }
+  },
+  {
+    "title": "AJILE Movement Prediction: Multimodal Deep Learning for Natural Human Neural Recordings and Video",
+    "authors": [
+      "Nancy Xin Ru Wang",
+      "Ali Farhadi",
+      "Rajesh Rao",
+      "Bingni Brunton"
+    ],
+    "year": "2018",
+    "venue": "AAAI 2018",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1709.05939"
+    }
+  },
+  {
+    "title": "AI2-THOR: An Interactive 3D Environment for Visual AI",
+    "thumbnail": "/ai2thor.jpg",
+    "authors": [
+      "Eric Kolve",
+      "Roozbeh Mottaghi",
+      "Winson Han",
+      "Eli VanderBilt",
+      "Luca Weihs",
+      "Alvaro Herrasti",
+      "Matt Deitke",
+      "Kiana Ehsani",
+      "Daniel Gordon",
+      "Yuke Zhu",
+      "Aniruddha Kembhavi",
+      "Abhinav Gupta",
+      "Ali Farhadi"
+    ],
+    "year": "2017",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/1712.05474",
+      "project page": "https://ai2thor.allenai.org/",
+      "code": "https://github.com/allenai/ai2thor"
+    }
+  },
+  {
+    "title": "Visual Semantic Planning using Deep Successor Representations",
+    "authors": [
+      "Daniel Gordon*",
+      "Yuke Zhu*",
+      "Eric Kolve",
+      "Dieter Fox",
+      "Li Fei-Fei",
+      "Abhinav Gupta",
+      "Roozbeh Mottaghi",
+      "Ali Farhadi"
+    ],
+    "year": "2017",
+    "venue": "ICCV 2017",
+    "links": {
+      "pdf": "https://danielgordon10.github.io/pdfs/vsp.pdf"
+    }
+  },
+  {
+    "title": "See the Glass Half Full: Reasoning about Liquid Containers, their Volume and Content",
+    "authors": [
+      "Roozbeh Mottaghi",
+      "Connor Schenck",
+      "Dieter Fox",
+      "Ali Farhadi"
+    ],
+    "year": "2017",
+    "venue": "ICCV 2017",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1701.02718"
+    }
+  },
+  {
+    "title": "YOLO9000: Better, Faster, Stronger",
+    "authors": [
+      "Joseph Redmon",
+      "Ali Farhadi"
+    ],
+    "year": "2017",
+    "award": "Best Paper Honorable Mention",
+    "venue": "CVPR 2017",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1612.08242",
+      "project page": "https://pjreddie.com/darknet/yolo/"
+    }
+  },
+  {
+    "title": "Are You Smarter Than A Sixth Grader? Textbook Question Answering for Multimodal Machine Comprehension",
+    "authors": [
+      "Aniruddha Kembhavi",
+      "Minjoon Seo",
+      "Eric Klove",
+      "Dustin Schwenk",
+      "Hannaneh Hajishirzi",
+      "Ali Farhadi"
+    ],
+    "year": "2017",
+    "venue": "CVPR 2017",
+    "links": {
+      "pdf": "http://ai2-website.s3.amazonaws.com/publications/CVPR17_TQA.pdf",
+      "project page": "http://vuchallenge.org/tqa.html"
+    }
+  },
+  {
+    "title": "LCNN: Lookup-based Convolutional Neural Network",
+    "authors": [
+      "Hessam Bagherinezhad",
+      "Mohammad Rastegari",
+      "Ali Farhadi"
+    ],
+    "year": "2017",
+    "venue": "CVPR 2017",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1611.06473",
+      "code": "https://github.com/hessamb/lcnn"
+    }
+  },
+  {
+    "title": "Commonly Uncommon: Semantic Sparsity in Situation Recognition",
+    "authors": [
+      "Mark Yatskar",
+      "Vicente Ord\u00f3\u00f1ez",
+      "Luke Zettlemoyer",
+      "Ali Farhadi"
+    ],
+    "year": "2017",
+    "venue": "CVPR 2017",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1612.00901"
+    }
+  },
+  {
+    "title": "Asynchronous Temporal Fields for Action Recognition",
+    "authors": [
+      "Gunnar A Sigurdsson",
+      "Santosh Divvala",
+      "Ali Farhadi",
+      "Abhinav Gupta"
+    ],
+    "year": "2017",
+    "venue": "CVPR 2017",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1612.06371"
+    }
+  },
+  {
+    "title": "Query-Reduction Networks for Question Answering",
+    "authors": [
+      "Minjoon Seo",
+      "Sewon Min",
+      "Ali Farhadi",
+      "Hannaneh Hajishirzi"
+    ],
+    "year": "2017",
+    "venue": "ICLR 2017",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1606.04582",
+      "code": "https://github.com/uwnlp/qrn"
+    }
+  },
+  {
+    "title": "Bidirectional Attention Flow for Machine Comprehension",
+    "authors": [
+      "Minjoon Seo",
+      "Aniruddha Kembhavi",
+      "Ali Farhadi",
+      "Hannaneh Hajishirzi"
+    ],
+    "year": "2017",
+    "venue": "ICLR 2017",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1611.01603",
+      "project page": "https://allenai.github.io/bi-att-flow/",
+      "code": "https://github.com/allenai/bi-att-flow"
+    }
+  },
+  {
+    "title": "Target-driven visual navigation in indoor scenes using deep reinforcement learning",
+    "authors": [
+      "Yuke Zhu",
+      "Roozbeh Mottaghi",
+      "Eric Kolve",
+      "Joseph Lim",
+      "Abhinav Gupta",
+      "Fei-Fei Li",
+      "Ali Farhadi"
+    ],
+    "year": "2017",
+    "venue": "ICRA 2017",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1609.05143"
+    }
+  },
+  {
+    "title": "Summarizing unconstrained videos using salient montages",
+    "authors": [
+      "Min Sun",
+      "Ali Farhadi",
+      "Ben Taskar",
+      "Steve Seitz"
+    ],
+    "year": "2017",
+    "venue": "TPAMI 2017",
+    "links": {
+      "pdf": "https://ieeexplore.ieee.org/document/7779036"
+    }
+  },
+  {
+    "title": "Semantic Highlight Retrieval and Term Prediction",
+    "authors": [
+      "Min Sun",
+      "Kuo-Hao Zeng",
+      "Yen-Chen Lin",
+      "Ali Farhadi"
+    ],
+    "year": "2017",
+    "venue": "TIP 2017",
+    "links": {
+      "pdf": "https://ieeexplore.ieee.org/document/7852483"
+    }
+  },
+  {
+    "title": "XNOR-Net: ImageNet Classification Using Binary Convolutional Neural Networks",
+    "authors": [
+      "Mohammad Rastegari",
+      "Vicente Ordonez",
+      "Joseph Redmon",
+      "Ali Farhadi"
+    ],
+    "year": "2016",
+    "venue": "ECCV 2016",
+    "links": {
+      "pdf": "http://arxiv.org/abs/1603.05279",
+      "code": "https://github.com/allenai/XNOR-Net"
+    }
+  },
+  {
+    "title": "Deep3D: Fully Automatic 2D-to-3D Video Conversion with Deep Convolutional Neural Networks",
+    "authors": [
+      "Junyuan Xie",
+      "Ross B. Girshick",
+      "Ali Farhadi"
+    ],
+    "year": "2016",
+    "venue": "ECCV 2016",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1604.03650",
+      "code": "https://github.com/piiswrong/deep3d"
+    }
+  },
+  {
+    "title": "A Diagram Is Worth A Dozen Images",
+    "authors": [
+      "Ani Kembhavi",
+      "Mike Salvato",
+      "Eric Kolve",
+      "Minjoon Seo",
+      "Hannaneh Hajishirzi",
+      "Ali Farhadi"
+    ],
+    "year": "2016",
+    "venue": "ECCV 2016",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1603.07396",
+      "code": "https://github.com/allenai/dqa-net"
+    }
+  },
+  {
+    "title": "\"What happens if...\" Learning to predict the effect of forces in images",
+    "authors": [
+      "Roozbeh Mottaghi",
+      "Mohammad Rastegari",
+      "Abhinav Gupta",
+      "Ali Farhadi"
+    ],
+    "year": "2016",
+    "venue": "ECCV 2016",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1603.05600"
+    }
+  },
+  {
+    "title": "Hollywood in Homes: Crowdsourcing Data Collection for Activity Understanding",
+    "authors": [
+      "Gunnar Sigurdsson",
+      "Gul Varol",
+      "Xiaolong Wang",
+      "Ali Farhadi",
+      "Ivan Laptev",
+      "Abhinav Gupta"
+    ],
+    "year": "2016",
+    "venue": "ECCV 2016",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1604.01753",
+      "project page": "http://allenai.org/plato/charades/"
+    }
+  },
+  {
+    "title": "FigureSeer:Parsing Result-Figures in Research Papers",
+    "authors": [
+      "Noah Siegel",
+      "Santosh Divvala",
+      "Ali Farhadi"
+    ],
+    "year": "2016",
+    "venue": "ECCV 2016",
+    "links": {
+      "pdf": "http://ai2-website.s3.amazonaws.com/publications/Siegel16eccv.pdf",
+      "project page": "https://prior.allenai.org/projects/figureseer"
+    }
+  },
+  {
+    "title": "You Only Look Once: Unified, Real-Time Object Detection",
+    "authors": [
+      "Joseph Redmon",
+      "Santosh Divvala",
+      "Ross Girshick",
+      "Ali Farhadi"
+    ],
+    "year": "2016",
+    "award": "OpenCV People's Choice Award",
+    "venue": "CVPR 2016",
+    "links": {
+      "pdf": "http://arxiv.org/abs/1506.02640",
+      "project page": "https://pjreddie.com/darknet/yolo/"
+    }
+  },
+  {
+    "title": "Situation Recognition: Visual Semantic Role Labeling for Image Understanding",
+    "authors": [
+      "Mark Yatskar",
+      "Luke Zettlemoyer",
+      "Ali Farhadi"
+    ],
+    "year": "2016",
+    "venue": "CVPR 2016",
+    "links": {
+      "pdf": "https://homes.cs.washington.edu/~ali/papers/SituationRecognition.pdf",
+      "code": "https://github.com/my89/SituationCrf"
+    }
+  },
+  {
+    "title": "Newtonian Image Understanding: Unfolding the Dynamics of Objects in Static Images",
+    "authors": [
+      "Roozbeh Mottaghi",
+      "Hessam Bagherinezhad",
+      "Mohammad Rastegari",
+      "Ali Farhadi"
+    ],
+    "year": "2016",
+    "venue": "CVPR 2016",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1511.04048",
+      "project page": "http://allenai.org/plato/newtonian-understanding/"
+    }
+  },
+  {
+    "title": "Actions~Transformation",
+    "authors": [
+      "Xiaolong Wang",
+      "Ali Farhadi",
+      "Abhinav Gupta"
+    ],
+    "year": "2016",
+    "venue": "CVPR 2016",
+    "links": {
+      "pdf": "https://arxiv.org/abs/1512.00795"
+    }
+  },
+  {
+    "title": "A Task-Oriented Approach for Cost-sensitive Recognition",
+    "authors": [
+      "Roozbeh Mottaghi",
+      "Hannaneh Hajishirzi",
+      "Ali Farhadi"
+    ],
+    "year": "2016",
+    "venue": "CVPR 2016",
+    "links": {
+      "pdf": "https://homes.cs.washington.edu/~ali/papers/Tasks.pdf"
+    }
+  },
+  {
+    "title": "Unsupervised Deep Embedding for Clustering Analysis",
+    "authors": [
+      "Junyuan Xie",
+      "Ross B. Girshick",
+      "Ali Farhadi"
+    ],
+    "year": "2016",
+    "venue": "ICML 2016",
+    "links": {
+      "pdf": "http://proceedings.mlr.press/v48/xieb16.html",
+      "code": "https://github.com/piiswrong/dec"
+    }
+  },
+  {
+    "title": "Stating the Obvious: Extracting Visual Common Sense Knowledge",
+    "authors": [
+      "Mark Yatskar",
+      "Vicente Ord\u00f3\u00f1ez",
+      "Ali Farhadi"
+    ],
+    "year": "2016",
+    "venue": "NAACL 2016",
+    "links": {
+      "pdf": "https://www.aclweb.org/anthology/N16-1023"
+    }
+  },
+  {
+    "title": "Are Elephants Bigger than Butterflies? Reasoning about Sizes of Objects",
+    "authors": [
+      "Hessam Bagherinezhad",
+      "Hannaneh Hajishirzi",
+      "Yejin Choi",
+      "Ali Farhadi"
+    ],
+    "year": "2016",
+    "venue": "AAAI 2016",
+    "links": {
+      "pdf": "https://homes.cs.washington.edu/~ali/papers/Abnormality.pdf"
+    }
+  },
+  {
+    "title": "Toward a Taxonomy and Computational Models of Abnormalities in Images",
+    "authors": [
+      "Babak Saleh",
+      "Ahmed Elgammal",
+      "Jacob Feldman",
+      "Ali Farhadi"
+    ],
+    "year": "2016",
+    "venue": "AAAI 2016",
+    "award": "Best Student Paper Award",
+    "links": {
+      "pdf": "https://homes.cs.washington.edu/~ali/papers/Tasks.pdf"
+    }
+  },
+  {
+    "title": "Segment-Phrase Table for Semantic Segmentation, Visual Entailment and Paraphrasing",
+    "authors": [
+      "Hamid Izadinia",
+      "Fereshteh Sadeghi",
+      "Santosh K Divvala",
+      "Hannaneh Hajishirzi",
+      "Yejin Choi",
+      "Ali Farhadi"
+    ],
+    "year": "2015",
+    "venue": "ICCV 2015",
+    "links": {
+      "pdf": "https://homes.cs.washington.edu/~ali/spt.pdf"
+    }
+  },
+  {
+    "title": "Generating Notifications for Missing Actions: Don\u2019t forget to turn the lights off!",
+    "authors": [
+      "Bilge Soran",
+      "Ali Farhadi",
+      "Linda Shapiro"
+    ],
+    "year": "2015",
+    "venue": "ICCV 2015",
+    "links": {
+      "pdf": "https://homes.cs.washington.edu/~ali/alarm-iccv.pdf"
+    }
+  },
+  {
+    "title": "VISALOGY: Answering Visual Analogy Questions",
+    "authors": [
+      "Fereshteh Sadeghi",
+      "Larry Zittnick",
+      "Ali Farhadi"
+    ],
+    "year": "2015",
+    "venue": "NeurIPS 2015",
+    "links": {
+      "pdf": "https://papers.nips.cc/paper/5777-visalogy-answering-visual-analogy-questions"
+    }
+  },
+  {
+    "title": "Real-Time Grasp Detection Using Convolutional Neural Networks",
+    "authors": [
+      "Joseph Redmon",
+      "Anelia Angelova"
+    ],
+    "year": "2015",
+    "venue": "ICRA 2015",
+    "links": {
+      "pdf": "http://arxiv.org/abs/1506.02640"
+    }
+  },
+  {
+    "title": "Solving Geometry Problems: Combining Text and Diagram Interpretation",
+    "authors": [
+      "Minjoon Seo",
+      "Hannaneh Hajishirzi",
+      "Ali Farhadi",
+      "Oren Etzioni",
+      "Clint Malcolm"
+    ],
+    "year": "2015",
+    "venue": "EMNLP 2015",
+    "links": {
+      "pdf": "https://www.aclweb.org/anthology/D15-1171",
+      "project page": "https://geometry.allenai.org/"
+    }
+  },
+  {
+    "title": "VisKE: Visual Knowledge Extraction and Question Answering by Visual Verification of Relation Phrases",
+    "authors": [
+      "Fereshteh Sadeghi",
+      "Santosh K Divvala",
+      "Ali Farhadi"
+    ],
+    "year": "2015",
+    "venue": "CVPR 2015",
+    "links": {
+      "pdf": "http://viske.allenai.org/paper/fsadeghi_VisKE.pdf",
+      "project page": "http://viske.allenai.org/"
+    }
+  },
+  {
+    "title": "Discriminative and Consistent Similarities in Instance-Level Multiple Instance Learning",
+    "authors": [
+      "Mohammad Rastegari",
+      "Hannaneh Hajishirzi",
+      "Ali Farhadi"
+    ],
+    "year": "2015",
+    "venue": "CVPR 2015",
+    "links": {
+      "pdf": "http://ssli.ee.washington.edu/~hannaneh/papers/MIL.pdf"
+    }
+  },
+  {
+    "title": "Learning to Select and Order Vacation Photographs",
+    "authors": [
+      "Fereshteh Sadeghi",
+      "J Rafael Tena",
+      "Ali Farhadi",
+      "Leonid Sigal"
+    ],
+    "year": "2015",
+    "venue": "WACV 2015",
+    "links": {
+      "pdf": "http://homes.cs.washington.edu/~fsadeghi/papers/fsadeghi_album_wacv15.pdf"
+    }
+  },
+  {
+    "title": "Learning Everything about Anything: Webly-Supervised Visual Concept Learning",
+    "authors": [
+      "Santosh K Divvala",
+      "Ali Farhadi",
+      "Carlos Guestrin"
+    ],
+    "year": "2014",
+    "venue": "CVPR 2014",
+    "links": {
+      "pdf": "http://levan.cs.washington.edu/ngrams/objectNgrams_cvpr14.pdf",
+      "project page": "http://levan.cs.uw.edu/"
+    }
+  },
+  {
+    "title": "Incorporating Scene Context and Object Layout into Appearance Modeling",
+    "authors": [
+      "Hamid Izadinia",
+      "Fereshteh Sadeghi",
+      "Ali Farhadi"
+    ],
+    "year": "2014",
+    "venue": "CVPR 2014",
+    "links": {
+      "pdf": "http://grail.cs.washington.edu/pub/papers/izadinia2014isc.pdf"
+    }
+  },
+  {
+    "title": "Failure Prediction in Vision Systems",
+    "authors": [
+      "Peng Zhang",
+      "Jiuling Wang",
+      "Ali Farhadi",
+      "Martial Hebert",
+      "Devi Parikh"
+    ],
+    "year": "2014",
+    "venue": "CVPR 2014",
+    "links": {
+      "pdf": "http://www.ri.cmu.edu/pub_files/2014/3/predicting_failures_of_vision_systems_CVPR2014.pdf"
+    }
+  },
+  {
+    "title": "Towards Transparent Systems: Semantic Characterization of Failure Modes",
+    "authors": [
+      "Aayush Bansal",
+      "Ali Farhadi",
+      "Devi Parikh"
+    ],
+    "year": "2014",
+    "venue": "ECCV 2014",
+    "links": {
+      "pdf": "http://www.cs.cmu.edu/~aayushb/pubs/characterizing_mistakes_eccv2014.pdf"
+    }
+  },
+  {
+    "title": "Salient montages from unconstrained videos",
+    "authors": [
+      "Min Sun",
+      "Ali Farhadi",
+      "Ben Taskar",
+      "Steve Seitz"
+    ],
+    "year": "2014",
+    "venue": "ECCV 2014",
+    "links": {
+      "pdf": "http://grail.cs.washington.edu/pub/papers/sun2014smf.pdf"
+    }
+  },
+  {
+    "title": "Ranking Domain-Specific Highlights by Analyzing Edited Videos",
+    "authors": [
+      "Min Sun",
+      "Ali Farhadi",
+      "Steve Seitz"
+    ],
+    "year": "2014",
+    "venue": "ECCV 2014",
+    "links": {
+      "pdf": "http://grail.cs.washington.edu/pub/papers/sun2014rdh.pdf"
+    }
+  },
+  {
+    "title": "Diagram Understanding in Geometry Questions",
+    "authors": [
+      "Minjoon Seo",
+      "Hannaneh Hajishirzi",
+      "Ali Farhadi",
+      "Oren Etzioni"
+    ],
+    "year": "2014",
+    "venue": "AAAI 2014",
+    "links": {
+      "pdf": "http://homes.cs.washington.edu/~minjoon/papers/geosolver/diagram_understanding.pdf",
+      "project page": "https://geometry.allenai.org/"
+    }
+  },
+  {
+    "title": "Multi Resolution Language Grounding with Weak Supervision",
+    "authors": [
+      "Rik Koncel Kedziorski",
+      "Hannaneh Hajishirzi",
+      "and Ali Farhadi"
+    ],
+    "year": "2014",
+    "venue": "EMNLP 2014",
+    "links": {
+      "pdf": "http://ssli.ee.washington.edu/~hannaneh/segmentation-emnlp14.pdf"
+    }
+  },
+  {
+    "title": "Action Recognition in the Presence of One Egocentric and Multiple Static Cameras",
+    "authors": [
+      "Bilge Soran",
+      "Ali Farhadi",
+      "Linda Shapiro"
+    ],
+    "year": "2014",
+    "venue": "ACCV 2014",
+    "links": {
+      "pdf": "http://homes.cs.washington.edu/~shapiro/accv2014finalpaper.pdf"
+    }
+  },
+  {
+    "title": "Multi-Attribute Queries: To Merge or Not to Merge?",
+    "authors": [
+      "Mohammad Rastegari",
+      "Ali Diba",
+      "Devi Parikh",
+      "Ali Farhadi"
+    ],
+    "year": "2013",
+    "venue": "CVPR 2013",
+    "links": {
+      "pdf": "https://homes.cs.washington.edu/~ali/papers/MultiAtr_CVPR13.pdf"
+    }
+  },
+  {
+    "title": "Object-Centric Anomaly Detection by Attribute-Based Reasoning",
+    "authors": [
+      "Babak Saleh",
+      "Ali Farhadi",
+      "Ahmed Elgammal"
+    ],
+    "year": "2013",
+    "venue": "CVPR 2013",
+    "links": {
+      "pdf": "https://homes.cs.washington.edu/~ali/papers/Abnormality_CVPR13.pdf"
+    }
+  },
+  {
+    "title": "Adding Unlabeled Samples to Categories by Learned Attributes",
+    "authors": [
+      "Jonghyun Choi",
+      "Mohammad Rastegari",
+      "Ali Farhadi",
+      "Larry Davis"
+    ],
+    "year": "2013",
+    "venue": "CVPR 2013",
+    "links": {
+      "pdf": "https://homes.cs.washington.edu/~ali/papers/Adding_CVPR13.pdf"
+    }
+  },
+  {
+    "title": "Attribute Discovery via Predictable Discriminative Binary Codes",
+    "authors": [
+      "Mohammad Rastegari",
+      "Ali Farhadi",
+      "David Forsyth"
+    ],
+    "year": "2012",
+    "venue": "ECCV 2012",
+    "links": {
+      "pdf": "http://www.cs.umd.edu/~mrastega/Site/Publications_files/dbc.pdf"
+    }
+  },
+  {
+    "title": "Semantic Understanding of Proefessional Soccer Commentaries",
+    "authors": [
+      "Hannaneh Hajishirzi",
+      "Mohammad Rastegari",
+      "Ali Farhadi",
+      "Jessica Hodgins"
+    ],
+    "year": "2012",
+    "venue": "UAI 2012",
+    "links": {
+      "pdf": "http://homes.cs.washington.edu/~hannaneh/soccer-UAI.pdf"
+    }
+  },
+  {
+    "title": "Building a Dictionary of Image Fragments",
+    "authors": [
+      "Zicheng Liao",
+      "Ali Farhadi",
+      "Yang Wang",
+      "Ian Endres",
+      "David Forsyth"
+    ],
+    "year": "2012",
+    "venue": "CVPR 2012",
+    "links": {
+      "pdf": "http://web.engr.illinois.edu/~liao17/data/fragdict-cvpr12.pdf"
+    }
+  },
+  {
+    "title": "Understanding Egocentric Activities",
+    "authors": [
+      "Alireza Fathi",
+      "Ali Farhadi",
+      "James Rehg"
+    ],
+    "year": "2011",
+    "venue": "ICCV 2011",
+    "links": {
+      "pdf": "http://www.cc.gatech.edu/~afathi3/publication/ICCV11.pdf"
+    }
+  },
+  {
+    "title": "Recognition Using Visual Phrases",
+    "authors": [
+      "Ali Farhadi",
+      "Amin Sadeghi"
+    ],
+    "year": "2011",
+    "venue": "CVPR 2011",
+    "award": "Best Student Paper Award",
+    "links": {
+      "pdf": "http://vision.cs.uiuc.edu/phrasal/recognition_using_visual_phrases.pdf"
+    }
+  },
+  {
+    "title": "Using Classification to Protect the Integrity of Spectrum Measurements in White Space Networks",
+    "authors": [
+      "Omid Fatemieh",
+      "Ali Farhadi",
+      "Ranveer Chandra",
+      "Carl Gunter"
+    ],
+    "year": "2011",
+    "venue": "NDSS 2011",
+    "links": {
+      "pdf": "http://seclab.uiuc.edu/pubs/FatemiehFCG11.pdf"
+    }
+  },
+  {
+    "title": "Every Picture Tells a Story: Generating Sentences for Images",
+    "authors": [
+      "Ali Farhadi",
+      "Mohsen Hejrati",
+      "Amin Sadeghi",
+      "Peter Young",
+      "Cyrus Rashtchian",
+      "Julia Hockenmaier",
+      "David Forsyth"
+    ],
+    "year": "2010",
+    "venue": "ECCV 2010",
+    "links": {
+      "pdf": "https://homes.cs.washington.edu/~ali/papers/sentence.pdf"
+    }
+  },
+  {
+    "title": "Attribute-Centric Recognition for Cross-Category Generalization",
+    "authors": [
+      "Ali Farhadi",
+      "Ian Endres",
+      "Derek Hoiem"
+    ],
+    "year": "2010",
+    "venue": "CVPR 2010",
+    "links": {
+      "pdf": "https://homes.cs.washington.edu/~ali/papers/attributes_2010.pdf"
+    }
+  },
+  {
+    "title": "A Latent Model of Discriminative Aspect",
+    "authors": [
+      "Ali Farhadi",
+      "Mostafa Kamali",
+      "Ian Endres",
+      "David Forsyth"
+    ],
+    "year": "2009",
+    "venue": "ICCV 2009",
+    "links": {
+      "pdf": "https://homes.cs.washington.edu/~ali/papers/ICCV09_Aspect.pdf"
+    }
+  },
+  {
+    "title": "Unlabeled Data Improves Word Prediction",
+    "authors": [
+      "Nicolas Loeff",
+      "Ali Farhadi",
+      "Ian Endres",
+      "David Forsyth"
+    ],
+    "year": "2009",
+    "venue": "ICCV 2009",
+    "links": {
+      "pdf": "https://homes.cs.washington.edu/~ali/papers/ICCV09_manifold.pdf"
+    }
+  },
+  {
+    "title": "Describing Objects by their Attributes",
+    "authors": [
+      "Ali Farhadi",
+      "Ian Endres",
+      "Derek Hoiem",
+      "David Forsyth"
+    ],
+    "year": "2009",
+    "venue": "CVPR 2009",
+    "links": {
+      "pdf": "https://homes.cs.washington.edu/~ali/papers/Attributes.pdf"
+    }
+  },
+  {
+    "title": "Learning to Recognize Activities from a Wrong Viewpoint",
+    "authors": [
+      "Ali Farhadi",
+      "Mostafa Kamali"
+    ],
+    "year": "2008",
+    "venue": "ECCV 2008",
+    "links": {
+      "pdf": "https://homes.cs.washington.edu/~ali/papers/Activity_transfer.pdf"
+    }
+  },
+  {
+    "title": "Scene Discovery by Matrix Factorization",
+    "authors": [
+      "Nicolas Loeff",
+      "Ali Farhadi"
+    ],
+    "year": "2008",
+    "venue": "ECCV 2008",
+    "links": {
+      "pdf": "https://homes.cs.washington.edu/~ali/papers/scene_discovery.pdf"
+    }
+  },
+  {
+    "title": "Transfer Learning in Sign Language",
+    "authors": [
+      "Ali Farhadi",
+      "David Forsyth",
+      "Ryan White"
+    ],
+    "year": "2007",
+    "venue": "CVPR 2007",
+    "links": {
+      "pdf": "https://homes.cs.washington.edu/~ali/papers/Transfer_Learning_ASL.pdf"
+    }
+  },
+  {
+    "title": "Aligning ASL for Statistical Translation Using a Discriminative Word Model",
+    "authors": [
+      "Ali Farhadi",
+      "David Forsyth"
+    ],
+    "year": "2006",
+    "venue": "CVPR 2006",
+    "links": {
+      "pdf": "https://homes.cs.washington.edu/~ali/papers/ASL_CVPR06.pdf"
+    }
+  }
+]
