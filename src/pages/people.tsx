@@ -146,7 +146,7 @@ export default function Home() {
                 title="Ph.D. Student, 2021 - Now"
                 additional="Advisors: Ranjay Krishna, Alex Ratner"
                 image="/cheng-yu-2.jpeg"
-                website="https://scholar.google.com/citations?user=WXX6ZwwAAAAJ&hl"
+                website="https://chengyuhsieh.github.io/"
               />
               <Person
                 name="Gabriel Ilharco"
