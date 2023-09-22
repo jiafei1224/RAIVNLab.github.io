@@ -44,6 +44,11 @@ jobs:
           name: public.zip
           path: ./
 
+      - name: List directory contents
+        run: |
+          ls -la
+          pwd
+
       - name: Deploy to server
         uses: appleboy/ssh-action@master
         with:
@@ -51,8 +56,8 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           password: ${{ secrets.SERVER_PASSWORD }}
           script: |
-            rm -rf /cse/web/research/raivn/*
             mv ./public.zip /cse/web/research/raivn/public.zip
+            rm -rf /cse/web/research/raivn/*
             cd /cse/web/research/raivn
             unzip public.zip
             rm public.zip
