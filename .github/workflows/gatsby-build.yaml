@@ -33,3 +33,25 @@ jobs:
       with:
         name: public.zip
         path: public.zip
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: public.zip
+  
+      - name: Deploy to server
+        uses: appleboy/ssh-action@master
+        with:
+          host: bicycle.cs.washington.edu
+          username: ${{ secrets.SERVER_USERNAME }}
+          password: ${{ secrets.SERVER_PASSWORD }}
+          script: |
+            rm -rf /cse/web/research/raivn/*
+            mv ./public.zip /cse/web/research/raivn/public.zip
+            cd /cse/web/research/raivn
+            unzip public.zip
+            rm public.zip
