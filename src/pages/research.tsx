@@ -65,7 +65,7 @@ function Publication(props: {
         <div className="text-[15px] mt-1 text-gray-900">
           {props.venue}
           {props.award ? (
-            <span className="text-yellow-700">
+            <span className="text-green-600">
               {" | "}
               <AiFillTrophy
                 style={{
