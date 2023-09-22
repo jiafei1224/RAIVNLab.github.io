@@ -47,12 +47,19 @@ function Publication(props: {
   venue: string;
   award?: string;
   thumbnail?: string;
+  imageWidth?: string;
 }) {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-[300px_1fr] gap-x-3 mb-7 px-5">
       <div>
         {props.thumbnail ? (
-          <img src={props.thumbnail} className="w-full sm:mb-0 mb-3" />
+          <img
+            src={props.thumbnail}
+            style={{
+              width: props.imageWidth,
+            }}
+            className={`sm:mb-0 mb-3 mx-auto w-full`}
+          />
         ) : (
           <></>
         )}

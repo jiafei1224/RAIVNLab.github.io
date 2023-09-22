@@ -20,8 +20,8 @@
       "Ludwig Schmidt",
       "Ali Farhadi"
     ],
-    "year": "preprint",
-    "venue": null,
+    "year": "2023",
+    "venue": "NeurIPS 2023",
     "links": {
       "pdf": "https://arxiv.org/abs/2307.05663",
       "code": "https://github.com/allenai/objaverse-xl",
@@ -38,66 +38,13 @@
       "Aniruddha Kembhavi",
       "Ranjay Krishna"
     ],
-    "year": "preprint",
-    "venue": null,
+    "year": "2023",
+    "venue": "NeurIPS 2023",
     "links": {
       "pdf": "https://arxiv.org/abs/2306.14610",
       "code": "https://github.com/RAIVNLab/sugar-crepe"
     },
-    "thumbnail": "/crepe.jpg"
-  },
-  {
-    "title": "On the Connection between Pre-training Data Diversity and Fine-tuning Robustness",
-    "authors": [
-      "Vivek Ramanujan",
-      "Thao Nguyen",
-      "Sewoong Oh",
-      "Ludwig Schmidt",
-      "Ali Farhadi"
-    ],
-    "year": "preprint",
-    "venue": null,
-    "links": {
-      "pdf": "https://arxiv.org/abs/2307.12532"
-    }
-  },
-  {
-    "title": "MADLAD-400: Monolingual And Document-Level Large Audited Dataset",
-    "authors": [
-      "Sneha Kudugunta",
-      "Isaac Rayburn Caswell",
-      "Biao Zhang",
-      "Xavier Garcia",
-      "Derrick Xin",
-      "Aditya Kusupati",
-      "Romi Stella",
-      "Ankur Bapna",
-      "Orhan Firat"
-    ],
-    "year": "preprint",
-    "venue": null,
-    "links": {
-      "pdf": "https://arxiv.org/abs/2309.04662"
-    }
-  },
-  {
-    "title": "Neural Priming for Sample-Efficient Adaptation",
-    "authors": [
-      "Matthew Wallingford",
-      "Vivek Ramanujan",
-      "Alex Fang",
-      "Aditya Kusupati",
-      "Roozbeh Mottaghi",
-      "Aniruddha Kembhavi",
-      "Ludwig Schmidt",
-      "Ali Farhadi"
-    ],
-    "year": "preprint",
-    "venue": null,
-    "links": {
-      "pdf": "https://arxiv.org/abs/2306.10191",
-      "code": "https://github.com/RAIVNLab/neural-priming"
-    }
+    "thumbnail": "/sugar-crepe.jpg"
   },
   {
     "title": "DataComp: In search of the next generation of multimodal datasets",
@@ -137,13 +84,123 @@
       "Vaishaal Shankar",
       "Ludwig Schmidt."
     ],
-    "year": "preprint",
-    "venue": null,
+    "year": "2023",
+    "venue": "NeurIPS 2023",
     "links": {
       "pdf": "https://arxiv.org/abs/2304.14108",
       "project page": "https://datacomp.ai/"
     },
     "thumbnail": "/datacomp.jpg"
+  },
+  {
+    "title": "On the Connection between Pre-training Data Diversity and Fine-tuning Robustness",
+    "authors": [
+      "Vivek Ramanujan",
+      "Thao Nguyen",
+      "Sewoong Oh",
+      "Ludwig Schmidt",
+      "Ali Farhadi"
+    ],
+    "year": "2023",
+    "venue": "NeurIPS 2023",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2307.12532"
+    }
+  },
+  {
+    "title": "OBJECT 3DIT: Language-guided 3D-aware Image Editing",
+    "thumbnail": "/rotate.gif",
+    "authors": [
+      "Oscar Michel",
+      "Anand Bhattad",
+      "Eli VanderBilt",
+      "Ranjay Krishna",
+      "Aniruddha Kembhavi",
+      "Tanmay Gupta"
+    ],
+    "year": "2023",
+    "venue": "NeurIPS 2023",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2307.11073",
+      "project page": "https://prior.allenai.org/projects/object-edit"
+    },
+    "imageWidth": "calc(7/12*100%)"
+  },
+  {
+    "title": "MADLAD-400: Monolingual And Document-Level Large Audited Dataset",
+    "authors": [
+      "Sneha Kudugunta",
+      "Isaac Rayburn Caswell",
+      "Biao Zhang",
+      "Xavier Garcia",
+      "Derrick Xin",
+      "Aditya Kusupati",
+      "Romi Stella",
+      "Ankur Bapna",
+      "Orhan Firat"
+    ],
+    "year": "2023",
+    "venue": "NeurIPS 2023",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2309.04662"
+    }
+  },
+  {
+    "title": "Neural Priming for Sample-Efficient Adaptation",
+    "authors": [
+      "Matthew Wallingford",
+      "Vivek Ramanujan",
+      "Alex Fang",
+      "Aditya Kusupati",
+      "Roozbeh Mottaghi",
+      "Aniruddha Kembhavi",
+      "Ludwig Schmidt",
+      "Ali Farhadi"
+    ],
+    "year": "2023",
+    "venue": "NeurIPS 2023",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2306.10191",
+      "code": "https://github.com/RAIVNLab/neural-priming"
+    }
+  },
+  {
+    "title": "Quilt-1M: One Million Image-Text Pairs for Histopathology",
+    "thumbnail": "/quilt-1m.jpg",
+    "authors": [
+      "Wisdom Oluchi Ikezogwo",
+      "Mehmet Saygin Seyfioglu",
+      "Fatemeh Ghezloo",
+      "Dylan Stefan Chan Geva",
+      "Fatwir Sheikh Mohammed",
+      "Pavan Kumar Anand",
+      "Ranjay Krishna",
+      "Linda Shapiro"
+    ],
+    "year": "2023",
+    "venue": "NeurIPS 2023",
+    "links": {
+      "pdf": "http://arxiv.org/abs/2306.11207",
+      "code": "https://github.com/wisdomikezogwo/quilt1m"
+    }
+  },
+  {
+    "title": "Tool Documentation Enables Zero-Shot Tool-Usage with Large Language Models",
+    "authors": [
+      "Cheng-Yu Hsieh",
+      "Si-An Chen",
+      "Chun-Liang Li",
+      "Yasuhisa Fujii",
+      "Alexander Ratner",
+      "Chen-Yu Lee",
+      "Ranjay Krishna",
+      "Tomas Pfister"
+    ],
+    "year": "preprint",
+    "venue": null,
+    "links": {
+      "pdf": "https://arxiv.org/abs/2308.00675"
+    }
   },
   {
     "title": "MIMIC: Masked Image Modeling with Image Correspondences",
@@ -164,6 +221,21 @@
     }
   },
   {
+    "title": "Improving Multimodal Datasets with Image Captioning",
+    "authors": [
+      "Thao Nguyen",
+      "Samir Yitzhak Gadre",
+      "Gabriel Ilharco",
+      "Sewoong Oh",
+      "Ludwig Schmidt"
+    ],
+    "year": "2023",
+    "venue": "NeurIPS 2023",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2307.10350"
+    }
+  },
+  {
     "title": "AdANNS: A Framework for Adaptive Semantic Search",
     "authors": [
       "Aniket Rege",
@@ -175,8 +247,8 @@
       "Prateek Jain",
       "Ali Farhadi"
     ],
-    "year": "preprint",
-    "venue": null,
+    "year": "2023",
+    "venue": "NeurIPS 2023",
     "links": {
       "pdf": "https://arxiv.org/abs/2305.19435",
       "code": "https://github.com/RAIVNLab/AdANNS"
@@ -192,14 +264,48 @@
       "Ali Farhadi",
       "Ludwig Schmidt"
     ],
-    "year": "preprint",
-    "venue": null,
+    "year": "2023",
+    "venue": "NeurIPS 2023",
     "links": {
       "pdf": "https://arxiv.org/abs/2304.13013"
     }
   },
   {
+    "title": "Cola: How to adapt vision-language models to Compose Objects Localized with Attributes?",
+    "authors": [
+      "Arijit Ray",
+      "Filip Radenovic",
+      "Abhimanyu Dubey",
+      "Bryan A. Plummer",
+      "Ranjay Krishna",
+      "Kate Saenko"
+    ],
+    "year": "2023",
+    "venue": "NeurIPS 2023",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2305.03689",
+      "project page": "https://cs-people.bu.edu/array/research/cola/"
+    }
+  },
+  {
+    "title": "AR2-D2:Training a Robot Without a Robot",
+    "authors": [
+      "Jiafei Duan",
+      "Yi Ru Wang",
+      "Mohit Shridhar",
+      "Dieter Fox",
+      "Ranjay Krishna"
+    ],
+    "year": "2023",
+    "venue": "CoRL 2023",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2306.13818",
+      "project page": "http://ar2d2.site/"
+    }
+  },
+  {
     "title": "VOCALExplore: Pay-as-You-Go Video Data Exploration and Model Building",
+    "thumbnail": "/vocalexplore.png",
     "authors": [
       "Maureen Daum",
       "Enhao Zhang",
@@ -209,8 +315,8 @@
       "Ranjay Krishna",
       "Magdalena Balazinska"
     ],
-    "year": "preprint",
-    "venue": "Under Review at VLDB 2023",
+    "year": "2024",
+    "venue": "VLDB 2024",
     "links": {
       "pdf": "https://arxiv.org/pdf/2303.04068"
     }
@@ -244,7 +350,7 @@
       "Chao Zhang"
     ],
     "year": "2023",
-    "venue": "DMLR @ ICML 2023",
+    "venue": "NeurIPS 2023",
     "links": {
       "pdf": "https://arxiv.org/abs/2306.15895",
       "code": "https://github.com/yueyu1030/AttrPrompt"
@@ -281,6 +387,34 @@
     "links": {
       "pdf": "https://arxiv.org/abs/2209.03320",
       "code": "https://github.com/sarahpratt/CuPL"
+    }
+  },
+  {
+    "title": "Agile Modeling: From Concept to Classifier in Minutes",
+    "authors": [
+      "Otilia Stretcu",
+      "Edward Vendrow",
+      "Kenji Hata",
+      "Krishnamurthy Viswanathan",
+      "Vittorio Ferrari",
+      "Sasan Tavakkol",
+      "Wenlei Zhou",
+      "Aditya Avinash",
+      "Enming Luo",
+      "Neil Gordon Alldrin",
+      "MohammadHossein Bateni",
+      "Gabriel Berger",
+      "Andrew Bunner",
+      "Chun-Ta Lu",
+      "Javier A Rey",
+      "Giulia DeSalvo",
+      "Ranjay Krishna",
+      "Ariel Fuxman"
+    ],
+    "year": "2023",
+    "venue": "ICCV 2023",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2302.12948"
     }
   },
   {
@@ -440,6 +574,22 @@
     "venue": "TMLR",
     "links": {
       "pdf": "https://arxiv.org/abs/2210.11948"
+    }
+  },
+  {
+    "title": "​Explanations can Reduce Overreliance on AI Systems during Decision-Making",
+    "authors": [
+      "Helena Vasconcelos",
+      "Matthew Jorke",
+      "Madeleine Grunde-McLaughlin",
+      "Tobias Gerstenberg",
+      "Michael Bernstein",
+      "Ranjay Krishna"
+    ],
+    "year": "2023",
+    "venue": "CSCW 2023",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2212.06823"
     }
   },
   {
@@ -695,7 +845,7 @@
     }
   },
   {
-    "title": "FMeasuring Compositional Consistency for Video Question Answering",
+    "title": "Measuring Compositional Consistency for Video Question Answering",
     "authors": [
       "Mona Gandhi*",
       "Mustafa Omer Gul*",
@@ -726,6 +876,19 @@
     "venue": "CIDR 2022",
     "links": {
       "pdf": "http://cidrdb.org/cidr2022/papers/p41-daum.pdf"
+    }
+  },
+  {
+    "title": "Searching for Computer Vision North Stars",
+    "authors": [
+      "Li Fei-Fei",
+      "Ranjay Krishna"
+    ],
+    "year": "2022",
+    "venue": "Book: Daedalus Special issue on \"AI & Society\" | Daedalus Spring 2022",
+    "links": {
+      "pdf": "https://www.amacad.org/sites/default/files/publication/downloads/Daedalus_Sp22_06_Li.pdf",
+      "project page": "https://www.amacad.org/publication/searching-computer-vision-north-stars"
     }
   },
   {

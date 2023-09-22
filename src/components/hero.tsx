@@ -54,6 +54,12 @@ export default function HeroHome() {
               </div>
               <div>
                 <img
+                  src="/ranjay-students.jpg"
+                  className="md:w-9/12 mx-auto rounded-md w-11/12"
+                />
+              </div>
+              <div>
+                <img
                   src="/gates_center.jpg"
                   className="md:w-9/12 mx-auto rounded-md w-11/12"
                 />
