@@ -369,7 +369,7 @@ export default function Home() {
                 name="Min Sun"
                 title="Postdoc, 2013 - 2014"
                 additional="Advisors: Ali Farhadi, Steve Seitz & Ben Taskar, Assistant Professor, National Tsing Hua University"
-                image="/minjoon.jpg"
+                image="/min-sun.jpg"
                 website="http://aliensunmin.github.io/"
               />
             </div>
