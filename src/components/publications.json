@@ -1,5 +1,22 @@
 [
   {
+    "title": "AR2-D2: Training a Robot Without a Robot",
+    "authors": [
+      "Jiafei Duan",
+      "Yi Ru Wang",
+      "Mohit Shridhar",
+      "Dieter Fox",
+      "Ranjay Krishna"
+    ],
+    "year": "2023",
+    "venue": "CoRL 2023",
+    "links": {
+      "pdf": "https://arxiv.org/pdf/2306.13818.pdf",
+      "project page": "http://ar2d2.site/"
+    },
+    "thumbnail": "/ar2d2.gif"
+  },
+  {
     "title": "Objaverse-XL: A Universe of 10M+ 3D Objects",
     "authors": [
       "Matt Deitke",
