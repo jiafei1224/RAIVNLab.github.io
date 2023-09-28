@@ -301,7 +301,8 @@
     "links": {
       "pdf": "https://arxiv.org/abs/2306.13818",
       "project page": "http://ar2d2.site/"
-    }
+    },
+    "thumbnail": "/ar2d2.jpg"
   },
   {
     "title": "VOCALExplore: Pay-as-You-Go Video Data Exploration and Model Building",
